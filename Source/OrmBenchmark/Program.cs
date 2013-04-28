@@ -17,8 +17,8 @@ namespace OrmBenchmark
             Console.ReadKey();
 
             WarmUp();
-            TestInsula();
             TestPetaPoco();
+            TestInsula();
             TestEntityFramework();
 
             Console.WriteLine();
@@ -67,7 +67,7 @@ namespace OrmBenchmark
         {
             Console.WriteLine();
             Console.WriteLine("------------------------------------------------------------");
-            Console.WriteLine("Insula");
+            Console.WriteLine("Insula.Data");
             Console.WriteLine("------------------------------------------------------------");
 
             OrmBenchmark.Insula.InsulaDatabaseContext db = null;
