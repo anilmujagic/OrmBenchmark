@@ -37,8 +37,14 @@
     <Reference Include="EntityFramework">
       <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
+    <Reference Include="Insula.Common">
+      <HintPath>..\packages\Insula.Common.1.0.3\lib\portable-win+net40+sl40+wp\Insula.Common.dll</HintPath>
+    </Reference>
     <Reference Include="Insula.Data">
-      <HintPath>..\Libraries\Insula.Data.dll</HintPath>
+      <HintPath>..\packages\Insula.Data.0.1.1\lib\net40\Insula.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Insula.DataAnnotations">
+      <HintPath>..\packages\Insula.DataAnnotations.1.0.0\lib\portable-win+net40+sl40+wp\Insula.DataAnnotations.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
