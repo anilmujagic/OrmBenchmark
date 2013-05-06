@@ -2129,6 +2129,32 @@ namespace OrmBenchmark.Insula
     }
 
 
+    public partial class Discount
+    {
+        [Mapped]
+        [Key]                
+        [Identity]
+        [Required]
+        public int DiscountID { get; set; }
+
+        [Mapped]
+        [StringLength(20)]
+        [DisplayFormat(ConvertEmptyStringToNull = true)]
+        public string ItemID { get; set; }
+
+        [Mapped]
+        [StringLength(20)]
+        [DisplayFormat(ConvertEmptyStringToNull = true)]
+        public string CustomerID { get; set; }
+
+        [Mapped]
+        [Required]
+        [DisplayFormat(DataFormatString = "N2")]
+        public decimal Percent { get; set; }
+
+    }
+
+
     public partial class Item
     {
         [Mapped]

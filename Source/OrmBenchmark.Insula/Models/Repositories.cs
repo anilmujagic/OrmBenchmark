@@ -9,14 +9,14 @@ namespace OrmBenchmark.Insula
 {
     public partial class CustomerRepository : Repository<Customer>
     {
-        public CustomerRepository(InsulaDatabaseContext context)
-            : base(context)
+        public CustomerRepository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer GetByKey(string customerID)
         {
-            return this.Query().Where("[CustomerID] = @0", customerID).GetSingle();  
+            return this.Query().Where(new { CustomerID = customerID }).GetSingle();  
         }
         
         public void DeleteByKey(string customerID)
@@ -28,14 +28,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer001Repository : Repository<Customer001>
     {
-        public Customer001Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer001Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer001 GetByKey(string customer001ID)
         {
-            return this.Query().Where("[Customer001ID] = @0", customer001ID).GetSingle();  
+            return this.Query().Where(new { Customer001ID = customer001ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer001ID)
@@ -47,14 +47,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer002Repository : Repository<Customer002>
     {
-        public Customer002Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer002Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer002 GetByKey(string customer002ID)
         {
-            return this.Query().Where("[Customer002ID] = @0", customer002ID).GetSingle();  
+            return this.Query().Where(new { Customer002ID = customer002ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer002ID)
@@ -66,14 +66,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer003Repository : Repository<Customer003>
     {
-        public Customer003Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer003Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer003 GetByKey(string customer003ID)
         {
-            return this.Query().Where("[Customer003ID] = @0", customer003ID).GetSingle();  
+            return this.Query().Where(new { Customer003ID = customer003ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer003ID)
@@ -85,14 +85,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer004Repository : Repository<Customer004>
     {
-        public Customer004Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer004Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer004 GetByKey(string customer004ID)
         {
-            return this.Query().Where("[Customer004ID] = @0", customer004ID).GetSingle();  
+            return this.Query().Where(new { Customer004ID = customer004ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer004ID)
@@ -104,14 +104,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer005Repository : Repository<Customer005>
     {
-        public Customer005Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer005Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer005 GetByKey(string customer005ID)
         {
-            return this.Query().Where("[Customer005ID] = @0", customer005ID).GetSingle();  
+            return this.Query().Where(new { Customer005ID = customer005ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer005ID)
@@ -123,14 +123,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer006Repository : Repository<Customer006>
     {
-        public Customer006Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer006Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer006 GetByKey(string customer006ID)
         {
-            return this.Query().Where("[Customer006ID] = @0", customer006ID).GetSingle();  
+            return this.Query().Where(new { Customer006ID = customer006ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer006ID)
@@ -142,14 +142,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer007Repository : Repository<Customer007>
     {
-        public Customer007Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer007Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer007 GetByKey(string customer007ID)
         {
-            return this.Query().Where("[Customer007ID] = @0", customer007ID).GetSingle();  
+            return this.Query().Where(new { Customer007ID = customer007ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer007ID)
@@ -161,14 +161,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer008Repository : Repository<Customer008>
     {
-        public Customer008Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer008Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer008 GetByKey(string customer008ID)
         {
-            return this.Query().Where("[Customer008ID] = @0", customer008ID).GetSingle();  
+            return this.Query().Where(new { Customer008ID = customer008ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer008ID)
@@ -180,14 +180,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer009Repository : Repository<Customer009>
     {
-        public Customer009Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer009Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer009 GetByKey(string customer009ID)
         {
-            return this.Query().Where("[Customer009ID] = @0", customer009ID).GetSingle();  
+            return this.Query().Where(new { Customer009ID = customer009ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer009ID)
@@ -199,14 +199,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer010Repository : Repository<Customer010>
     {
-        public Customer010Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer010Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer010 GetByKey(string customer010ID)
         {
-            return this.Query().Where("[Customer010ID] = @0", customer010ID).GetSingle();  
+            return this.Query().Where(new { Customer010ID = customer010ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer010ID)
@@ -218,14 +218,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer011Repository : Repository<Customer011>
     {
-        public Customer011Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer011Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer011 GetByKey(string customer011ID)
         {
-            return this.Query().Where("[Customer011ID] = @0", customer011ID).GetSingle();  
+            return this.Query().Where(new { Customer011ID = customer011ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer011ID)
@@ -237,14 +237,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer012Repository : Repository<Customer012>
     {
-        public Customer012Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer012Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer012 GetByKey(string customer012ID)
         {
-            return this.Query().Where("[Customer012ID] = @0", customer012ID).GetSingle();  
+            return this.Query().Where(new { Customer012ID = customer012ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer012ID)
@@ -256,14 +256,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer013Repository : Repository<Customer013>
     {
-        public Customer013Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer013Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer013 GetByKey(string customer013ID)
         {
-            return this.Query().Where("[Customer013ID] = @0", customer013ID).GetSingle();  
+            return this.Query().Where(new { Customer013ID = customer013ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer013ID)
@@ -275,14 +275,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer014Repository : Repository<Customer014>
     {
-        public Customer014Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer014Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer014 GetByKey(string customer014ID)
         {
-            return this.Query().Where("[Customer014ID] = @0", customer014ID).GetSingle();  
+            return this.Query().Where(new { Customer014ID = customer014ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer014ID)
@@ -294,14 +294,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer015Repository : Repository<Customer015>
     {
-        public Customer015Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer015Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer015 GetByKey(string customer015ID)
         {
-            return this.Query().Where("[Customer015ID] = @0", customer015ID).GetSingle();  
+            return this.Query().Where(new { Customer015ID = customer015ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer015ID)
@@ -313,14 +313,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer016Repository : Repository<Customer016>
     {
-        public Customer016Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer016Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer016 GetByKey(string customer016ID)
         {
-            return this.Query().Where("[Customer016ID] = @0", customer016ID).GetSingle();  
+            return this.Query().Where(new { Customer016ID = customer016ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer016ID)
@@ -332,14 +332,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer017Repository : Repository<Customer017>
     {
-        public Customer017Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer017Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer017 GetByKey(string customer017ID)
         {
-            return this.Query().Where("[Customer017ID] = @0", customer017ID).GetSingle();  
+            return this.Query().Where(new { Customer017ID = customer017ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer017ID)
@@ -351,14 +351,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer018Repository : Repository<Customer018>
     {
-        public Customer018Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer018Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer018 GetByKey(string customer018ID)
         {
-            return this.Query().Where("[Customer018ID] = @0", customer018ID).GetSingle();  
+            return this.Query().Where(new { Customer018ID = customer018ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer018ID)
@@ -370,14 +370,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer019Repository : Repository<Customer019>
     {
-        public Customer019Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer019Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer019 GetByKey(string customer019ID)
         {
-            return this.Query().Where("[Customer019ID] = @0", customer019ID).GetSingle();  
+            return this.Query().Where(new { Customer019ID = customer019ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer019ID)
@@ -389,14 +389,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer020Repository : Repository<Customer020>
     {
-        public Customer020Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer020Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer020 GetByKey(string customer020ID)
         {
-            return this.Query().Where("[Customer020ID] = @0", customer020ID).GetSingle();  
+            return this.Query().Where(new { Customer020ID = customer020ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer020ID)
@@ -408,14 +408,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer021Repository : Repository<Customer021>
     {
-        public Customer021Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer021Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer021 GetByKey(string customer021ID)
         {
-            return this.Query().Where("[Customer021ID] = @0", customer021ID).GetSingle();  
+            return this.Query().Where(new { Customer021ID = customer021ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer021ID)
@@ -427,14 +427,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer022Repository : Repository<Customer022>
     {
-        public Customer022Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer022Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer022 GetByKey(string customer022ID)
         {
-            return this.Query().Where("[Customer022ID] = @0", customer022ID).GetSingle();  
+            return this.Query().Where(new { Customer022ID = customer022ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer022ID)
@@ -446,14 +446,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer023Repository : Repository<Customer023>
     {
-        public Customer023Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer023Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer023 GetByKey(string customer023ID)
         {
-            return this.Query().Where("[Customer023ID] = @0", customer023ID).GetSingle();  
+            return this.Query().Where(new { Customer023ID = customer023ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer023ID)
@@ -465,14 +465,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer024Repository : Repository<Customer024>
     {
-        public Customer024Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer024Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer024 GetByKey(string customer024ID)
         {
-            return this.Query().Where("[Customer024ID] = @0", customer024ID).GetSingle();  
+            return this.Query().Where(new { Customer024ID = customer024ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer024ID)
@@ -484,14 +484,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer025Repository : Repository<Customer025>
     {
-        public Customer025Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer025Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer025 GetByKey(string customer025ID)
         {
-            return this.Query().Where("[Customer025ID] = @0", customer025ID).GetSingle();  
+            return this.Query().Where(new { Customer025ID = customer025ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer025ID)
@@ -503,14 +503,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer026Repository : Repository<Customer026>
     {
-        public Customer026Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer026Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer026 GetByKey(string customer026ID)
         {
-            return this.Query().Where("[Customer026ID] = @0", customer026ID).GetSingle();  
+            return this.Query().Where(new { Customer026ID = customer026ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer026ID)
@@ -522,14 +522,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer027Repository : Repository<Customer027>
     {
-        public Customer027Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer027Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer027 GetByKey(string customer027ID)
         {
-            return this.Query().Where("[Customer027ID] = @0", customer027ID).GetSingle();  
+            return this.Query().Where(new { Customer027ID = customer027ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer027ID)
@@ -541,14 +541,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer028Repository : Repository<Customer028>
     {
-        public Customer028Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer028Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer028 GetByKey(string customer028ID)
         {
-            return this.Query().Where("[Customer028ID] = @0", customer028ID).GetSingle();  
+            return this.Query().Where(new { Customer028ID = customer028ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer028ID)
@@ -560,14 +560,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer029Repository : Repository<Customer029>
     {
-        public Customer029Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer029Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer029 GetByKey(string customer029ID)
         {
-            return this.Query().Where("[Customer029ID] = @0", customer029ID).GetSingle();  
+            return this.Query().Where(new { Customer029ID = customer029ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer029ID)
@@ -579,14 +579,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer030Repository : Repository<Customer030>
     {
-        public Customer030Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer030Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer030 GetByKey(string customer030ID)
         {
-            return this.Query().Where("[Customer030ID] = @0", customer030ID).GetSingle();  
+            return this.Query().Where(new { Customer030ID = customer030ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer030ID)
@@ -598,14 +598,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer031Repository : Repository<Customer031>
     {
-        public Customer031Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer031Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer031 GetByKey(string customer031ID)
         {
-            return this.Query().Where("[Customer031ID] = @0", customer031ID).GetSingle();  
+            return this.Query().Where(new { Customer031ID = customer031ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer031ID)
@@ -617,14 +617,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer032Repository : Repository<Customer032>
     {
-        public Customer032Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer032Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer032 GetByKey(string customer032ID)
         {
-            return this.Query().Where("[Customer032ID] = @0", customer032ID).GetSingle();  
+            return this.Query().Where(new { Customer032ID = customer032ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer032ID)
@@ -636,14 +636,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer033Repository : Repository<Customer033>
     {
-        public Customer033Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer033Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer033 GetByKey(string customer033ID)
         {
-            return this.Query().Where("[Customer033ID] = @0", customer033ID).GetSingle();  
+            return this.Query().Where(new { Customer033ID = customer033ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer033ID)
@@ -655,14 +655,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer034Repository : Repository<Customer034>
     {
-        public Customer034Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer034Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer034 GetByKey(string customer034ID)
         {
-            return this.Query().Where("[Customer034ID] = @0", customer034ID).GetSingle();  
+            return this.Query().Where(new { Customer034ID = customer034ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer034ID)
@@ -674,14 +674,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer035Repository : Repository<Customer035>
     {
-        public Customer035Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer035Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer035 GetByKey(string customer035ID)
         {
-            return this.Query().Where("[Customer035ID] = @0", customer035ID).GetSingle();  
+            return this.Query().Where(new { Customer035ID = customer035ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer035ID)
@@ -693,14 +693,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer036Repository : Repository<Customer036>
     {
-        public Customer036Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer036Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer036 GetByKey(string customer036ID)
         {
-            return this.Query().Where("[Customer036ID] = @0", customer036ID).GetSingle();  
+            return this.Query().Where(new { Customer036ID = customer036ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer036ID)
@@ -712,14 +712,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer037Repository : Repository<Customer037>
     {
-        public Customer037Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer037Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer037 GetByKey(string customer037ID)
         {
-            return this.Query().Where("[Customer037ID] = @0", customer037ID).GetSingle();  
+            return this.Query().Where(new { Customer037ID = customer037ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer037ID)
@@ -731,14 +731,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer038Repository : Repository<Customer038>
     {
-        public Customer038Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer038Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer038 GetByKey(string customer038ID)
         {
-            return this.Query().Where("[Customer038ID] = @0", customer038ID).GetSingle();  
+            return this.Query().Where(new { Customer038ID = customer038ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer038ID)
@@ -750,14 +750,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer039Repository : Repository<Customer039>
     {
-        public Customer039Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer039Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer039 GetByKey(string customer039ID)
         {
-            return this.Query().Where("[Customer039ID] = @0", customer039ID).GetSingle();  
+            return this.Query().Where(new { Customer039ID = customer039ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer039ID)
@@ -769,14 +769,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer040Repository : Repository<Customer040>
     {
-        public Customer040Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer040Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer040 GetByKey(string customer040ID)
         {
-            return this.Query().Where("[Customer040ID] = @0", customer040ID).GetSingle();  
+            return this.Query().Where(new { Customer040ID = customer040ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer040ID)
@@ -788,14 +788,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer041Repository : Repository<Customer041>
     {
-        public Customer041Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer041Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer041 GetByKey(string customer041ID)
         {
-            return this.Query().Where("[Customer041ID] = @0", customer041ID).GetSingle();  
+            return this.Query().Where(new { Customer041ID = customer041ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer041ID)
@@ -807,14 +807,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer042Repository : Repository<Customer042>
     {
-        public Customer042Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer042Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer042 GetByKey(string customer042ID)
         {
-            return this.Query().Where("[Customer042ID] = @0", customer042ID).GetSingle();  
+            return this.Query().Where(new { Customer042ID = customer042ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer042ID)
@@ -826,14 +826,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer043Repository : Repository<Customer043>
     {
-        public Customer043Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer043Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer043 GetByKey(string customer043ID)
         {
-            return this.Query().Where("[Customer043ID] = @0", customer043ID).GetSingle();  
+            return this.Query().Where(new { Customer043ID = customer043ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer043ID)
@@ -845,14 +845,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer044Repository : Repository<Customer044>
     {
-        public Customer044Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer044Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer044 GetByKey(string customer044ID)
         {
-            return this.Query().Where("[Customer044ID] = @0", customer044ID).GetSingle();  
+            return this.Query().Where(new { Customer044ID = customer044ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer044ID)
@@ -864,14 +864,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer045Repository : Repository<Customer045>
     {
-        public Customer045Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer045Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer045 GetByKey(string customer045ID)
         {
-            return this.Query().Where("[Customer045ID] = @0", customer045ID).GetSingle();  
+            return this.Query().Where(new { Customer045ID = customer045ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer045ID)
@@ -883,14 +883,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer046Repository : Repository<Customer046>
     {
-        public Customer046Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer046Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer046 GetByKey(string customer046ID)
         {
-            return this.Query().Where("[Customer046ID] = @0", customer046ID).GetSingle();  
+            return this.Query().Where(new { Customer046ID = customer046ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer046ID)
@@ -902,14 +902,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer047Repository : Repository<Customer047>
     {
-        public Customer047Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer047Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer047 GetByKey(string customer047ID)
         {
-            return this.Query().Where("[Customer047ID] = @0", customer047ID).GetSingle();  
+            return this.Query().Where(new { Customer047ID = customer047ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer047ID)
@@ -921,14 +921,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer048Repository : Repository<Customer048>
     {
-        public Customer048Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer048Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer048 GetByKey(string customer048ID)
         {
-            return this.Query().Where("[Customer048ID] = @0", customer048ID).GetSingle();  
+            return this.Query().Where(new { Customer048ID = customer048ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer048ID)
@@ -940,14 +940,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer049Repository : Repository<Customer049>
     {
-        public Customer049Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer049Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer049 GetByKey(string customer049ID)
         {
-            return this.Query().Where("[Customer049ID] = @0", customer049ID).GetSingle();  
+            return this.Query().Where(new { Customer049ID = customer049ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer049ID)
@@ -959,14 +959,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer050Repository : Repository<Customer050>
     {
-        public Customer050Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer050Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer050 GetByKey(string customer050ID)
         {
-            return this.Query().Where("[Customer050ID] = @0", customer050ID).GetSingle();  
+            return this.Query().Where(new { Customer050ID = customer050ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer050ID)
@@ -978,14 +978,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer051Repository : Repository<Customer051>
     {
-        public Customer051Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer051Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer051 GetByKey(string customer051ID)
         {
-            return this.Query().Where("[Customer051ID] = @0", customer051ID).GetSingle();  
+            return this.Query().Where(new { Customer051ID = customer051ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer051ID)
@@ -997,14 +997,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer052Repository : Repository<Customer052>
     {
-        public Customer052Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer052Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer052 GetByKey(string customer052ID)
         {
-            return this.Query().Where("[Customer052ID] = @0", customer052ID).GetSingle();  
+            return this.Query().Where(new { Customer052ID = customer052ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer052ID)
@@ -1016,14 +1016,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer053Repository : Repository<Customer053>
     {
-        public Customer053Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer053Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer053 GetByKey(string customer053ID)
         {
-            return this.Query().Where("[Customer053ID] = @0", customer053ID).GetSingle();  
+            return this.Query().Where(new { Customer053ID = customer053ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer053ID)
@@ -1035,14 +1035,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer054Repository : Repository<Customer054>
     {
-        public Customer054Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer054Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer054 GetByKey(string customer054ID)
         {
-            return this.Query().Where("[Customer054ID] = @0", customer054ID).GetSingle();  
+            return this.Query().Where(new { Customer054ID = customer054ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer054ID)
@@ -1054,14 +1054,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer055Repository : Repository<Customer055>
     {
-        public Customer055Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer055Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer055 GetByKey(string customer055ID)
         {
-            return this.Query().Where("[Customer055ID] = @0", customer055ID).GetSingle();  
+            return this.Query().Where(new { Customer055ID = customer055ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer055ID)
@@ -1073,14 +1073,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer056Repository : Repository<Customer056>
     {
-        public Customer056Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer056Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer056 GetByKey(string customer056ID)
         {
-            return this.Query().Where("[Customer056ID] = @0", customer056ID).GetSingle();  
+            return this.Query().Where(new { Customer056ID = customer056ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer056ID)
@@ -1092,14 +1092,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer057Repository : Repository<Customer057>
     {
-        public Customer057Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer057Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer057 GetByKey(string customer057ID)
         {
-            return this.Query().Where("[Customer057ID] = @0", customer057ID).GetSingle();  
+            return this.Query().Where(new { Customer057ID = customer057ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer057ID)
@@ -1111,14 +1111,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer058Repository : Repository<Customer058>
     {
-        public Customer058Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer058Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer058 GetByKey(string customer058ID)
         {
-            return this.Query().Where("[Customer058ID] = @0", customer058ID).GetSingle();  
+            return this.Query().Where(new { Customer058ID = customer058ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer058ID)
@@ -1130,14 +1130,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer059Repository : Repository<Customer059>
     {
-        public Customer059Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer059Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer059 GetByKey(string customer059ID)
         {
-            return this.Query().Where("[Customer059ID] = @0", customer059ID).GetSingle();  
+            return this.Query().Where(new { Customer059ID = customer059ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer059ID)
@@ -1149,14 +1149,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer060Repository : Repository<Customer060>
     {
-        public Customer060Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer060Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer060 GetByKey(string customer060ID)
         {
-            return this.Query().Where("[Customer060ID] = @0", customer060ID).GetSingle();  
+            return this.Query().Where(new { Customer060ID = customer060ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer060ID)
@@ -1168,14 +1168,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer061Repository : Repository<Customer061>
     {
-        public Customer061Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer061Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer061 GetByKey(string customer061ID)
         {
-            return this.Query().Where("[Customer061ID] = @0", customer061ID).GetSingle();  
+            return this.Query().Where(new { Customer061ID = customer061ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer061ID)
@@ -1187,14 +1187,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer062Repository : Repository<Customer062>
     {
-        public Customer062Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer062Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer062 GetByKey(string customer062ID)
         {
-            return this.Query().Where("[Customer062ID] = @0", customer062ID).GetSingle();  
+            return this.Query().Where(new { Customer062ID = customer062ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer062ID)
@@ -1206,14 +1206,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer063Repository : Repository<Customer063>
     {
-        public Customer063Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer063Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer063 GetByKey(string customer063ID)
         {
-            return this.Query().Where("[Customer063ID] = @0", customer063ID).GetSingle();  
+            return this.Query().Where(new { Customer063ID = customer063ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer063ID)
@@ -1225,14 +1225,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer064Repository : Repository<Customer064>
     {
-        public Customer064Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer064Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer064 GetByKey(string customer064ID)
         {
-            return this.Query().Where("[Customer064ID] = @0", customer064ID).GetSingle();  
+            return this.Query().Where(new { Customer064ID = customer064ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer064ID)
@@ -1244,14 +1244,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer065Repository : Repository<Customer065>
     {
-        public Customer065Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer065Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer065 GetByKey(string customer065ID)
         {
-            return this.Query().Where("[Customer065ID] = @0", customer065ID).GetSingle();  
+            return this.Query().Where(new { Customer065ID = customer065ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer065ID)
@@ -1263,14 +1263,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer066Repository : Repository<Customer066>
     {
-        public Customer066Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer066Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer066 GetByKey(string customer066ID)
         {
-            return this.Query().Where("[Customer066ID] = @0", customer066ID).GetSingle();  
+            return this.Query().Where(new { Customer066ID = customer066ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer066ID)
@@ -1282,14 +1282,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer067Repository : Repository<Customer067>
     {
-        public Customer067Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer067Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer067 GetByKey(string customer067ID)
         {
-            return this.Query().Where("[Customer067ID] = @0", customer067ID).GetSingle();  
+            return this.Query().Where(new { Customer067ID = customer067ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer067ID)
@@ -1301,14 +1301,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer068Repository : Repository<Customer068>
     {
-        public Customer068Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer068Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer068 GetByKey(string customer068ID)
         {
-            return this.Query().Where("[Customer068ID] = @0", customer068ID).GetSingle();  
+            return this.Query().Where(new { Customer068ID = customer068ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer068ID)
@@ -1320,14 +1320,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer069Repository : Repository<Customer069>
     {
-        public Customer069Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer069Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer069 GetByKey(string customer069ID)
         {
-            return this.Query().Where("[Customer069ID] = @0", customer069ID).GetSingle();  
+            return this.Query().Where(new { Customer069ID = customer069ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer069ID)
@@ -1339,14 +1339,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer070Repository : Repository<Customer070>
     {
-        public Customer070Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer070Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer070 GetByKey(string customer070ID)
         {
-            return this.Query().Where("[Customer070ID] = @0", customer070ID).GetSingle();  
+            return this.Query().Where(new { Customer070ID = customer070ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer070ID)
@@ -1358,14 +1358,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer071Repository : Repository<Customer071>
     {
-        public Customer071Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer071Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer071 GetByKey(string customer071ID)
         {
-            return this.Query().Where("[Customer071ID] = @0", customer071ID).GetSingle();  
+            return this.Query().Where(new { Customer071ID = customer071ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer071ID)
@@ -1377,14 +1377,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer072Repository : Repository<Customer072>
     {
-        public Customer072Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer072Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer072 GetByKey(string customer072ID)
         {
-            return this.Query().Where("[Customer072ID] = @0", customer072ID).GetSingle();  
+            return this.Query().Where(new { Customer072ID = customer072ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer072ID)
@@ -1396,14 +1396,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer073Repository : Repository<Customer073>
     {
-        public Customer073Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer073Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer073 GetByKey(string customer073ID)
         {
-            return this.Query().Where("[Customer073ID] = @0", customer073ID).GetSingle();  
+            return this.Query().Where(new { Customer073ID = customer073ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer073ID)
@@ -1415,14 +1415,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer074Repository : Repository<Customer074>
     {
-        public Customer074Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer074Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer074 GetByKey(string customer074ID)
         {
-            return this.Query().Where("[Customer074ID] = @0", customer074ID).GetSingle();  
+            return this.Query().Where(new { Customer074ID = customer074ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer074ID)
@@ -1434,14 +1434,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer075Repository : Repository<Customer075>
     {
-        public Customer075Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer075Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer075 GetByKey(string customer075ID)
         {
-            return this.Query().Where("[Customer075ID] = @0", customer075ID).GetSingle();  
+            return this.Query().Where(new { Customer075ID = customer075ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer075ID)
@@ -1453,14 +1453,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer076Repository : Repository<Customer076>
     {
-        public Customer076Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer076Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer076 GetByKey(string customer076ID)
         {
-            return this.Query().Where("[Customer076ID] = @0", customer076ID).GetSingle();  
+            return this.Query().Where(new { Customer076ID = customer076ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer076ID)
@@ -1472,14 +1472,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer077Repository : Repository<Customer077>
     {
-        public Customer077Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer077Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer077 GetByKey(string customer077ID)
         {
-            return this.Query().Where("[Customer077ID] = @0", customer077ID).GetSingle();  
+            return this.Query().Where(new { Customer077ID = customer077ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer077ID)
@@ -1491,14 +1491,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer078Repository : Repository<Customer078>
     {
-        public Customer078Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer078Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer078 GetByKey(string customer078ID)
         {
-            return this.Query().Where("[Customer078ID] = @0", customer078ID).GetSingle();  
+            return this.Query().Where(new { Customer078ID = customer078ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer078ID)
@@ -1510,14 +1510,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer079Repository : Repository<Customer079>
     {
-        public Customer079Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer079Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer079 GetByKey(string customer079ID)
         {
-            return this.Query().Where("[Customer079ID] = @0", customer079ID).GetSingle();  
+            return this.Query().Where(new { Customer079ID = customer079ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer079ID)
@@ -1529,14 +1529,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer080Repository : Repository<Customer080>
     {
-        public Customer080Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer080Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer080 GetByKey(string customer080ID)
         {
-            return this.Query().Where("[Customer080ID] = @0", customer080ID).GetSingle();  
+            return this.Query().Where(new { Customer080ID = customer080ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer080ID)
@@ -1548,14 +1548,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer081Repository : Repository<Customer081>
     {
-        public Customer081Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer081Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer081 GetByKey(string customer081ID)
         {
-            return this.Query().Where("[Customer081ID] = @0", customer081ID).GetSingle();  
+            return this.Query().Where(new { Customer081ID = customer081ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer081ID)
@@ -1567,14 +1567,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer082Repository : Repository<Customer082>
     {
-        public Customer082Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer082Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer082 GetByKey(string customer082ID)
         {
-            return this.Query().Where("[Customer082ID] = @0", customer082ID).GetSingle();  
+            return this.Query().Where(new { Customer082ID = customer082ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer082ID)
@@ -1586,14 +1586,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer083Repository : Repository<Customer083>
     {
-        public Customer083Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer083Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer083 GetByKey(string customer083ID)
         {
-            return this.Query().Where("[Customer083ID] = @0", customer083ID).GetSingle();  
+            return this.Query().Where(new { Customer083ID = customer083ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer083ID)
@@ -1605,14 +1605,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer084Repository : Repository<Customer084>
     {
-        public Customer084Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer084Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer084 GetByKey(string customer084ID)
         {
-            return this.Query().Where("[Customer084ID] = @0", customer084ID).GetSingle();  
+            return this.Query().Where(new { Customer084ID = customer084ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer084ID)
@@ -1624,14 +1624,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer085Repository : Repository<Customer085>
     {
-        public Customer085Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer085Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer085 GetByKey(string customer085ID)
         {
-            return this.Query().Where("[Customer085ID] = @0", customer085ID).GetSingle();  
+            return this.Query().Where(new { Customer085ID = customer085ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer085ID)
@@ -1643,14 +1643,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer086Repository : Repository<Customer086>
     {
-        public Customer086Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer086Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer086 GetByKey(string customer086ID)
         {
-            return this.Query().Where("[Customer086ID] = @0", customer086ID).GetSingle();  
+            return this.Query().Where(new { Customer086ID = customer086ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer086ID)
@@ -1662,14 +1662,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer087Repository : Repository<Customer087>
     {
-        public Customer087Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer087Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer087 GetByKey(string customer087ID)
         {
-            return this.Query().Where("[Customer087ID] = @0", customer087ID).GetSingle();  
+            return this.Query().Where(new { Customer087ID = customer087ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer087ID)
@@ -1681,14 +1681,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer088Repository : Repository<Customer088>
     {
-        public Customer088Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer088Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer088 GetByKey(string customer088ID)
         {
-            return this.Query().Where("[Customer088ID] = @0", customer088ID).GetSingle();  
+            return this.Query().Where(new { Customer088ID = customer088ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer088ID)
@@ -1700,14 +1700,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer089Repository : Repository<Customer089>
     {
-        public Customer089Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer089Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer089 GetByKey(string customer089ID)
         {
-            return this.Query().Where("[Customer089ID] = @0", customer089ID).GetSingle();  
+            return this.Query().Where(new { Customer089ID = customer089ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer089ID)
@@ -1719,14 +1719,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer090Repository : Repository<Customer090>
     {
-        public Customer090Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer090Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer090 GetByKey(string customer090ID)
         {
-            return this.Query().Where("[Customer090ID] = @0", customer090ID).GetSingle();  
+            return this.Query().Where(new { Customer090ID = customer090ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer090ID)
@@ -1738,14 +1738,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer091Repository : Repository<Customer091>
     {
-        public Customer091Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer091Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer091 GetByKey(string customer091ID)
         {
-            return this.Query().Where("[Customer091ID] = @0", customer091ID).GetSingle();  
+            return this.Query().Where(new { Customer091ID = customer091ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer091ID)
@@ -1757,14 +1757,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer092Repository : Repository<Customer092>
     {
-        public Customer092Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer092Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer092 GetByKey(string customer092ID)
         {
-            return this.Query().Where("[Customer092ID] = @0", customer092ID).GetSingle();  
+            return this.Query().Where(new { Customer092ID = customer092ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer092ID)
@@ -1776,14 +1776,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer093Repository : Repository<Customer093>
     {
-        public Customer093Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer093Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer093 GetByKey(string customer093ID)
         {
-            return this.Query().Where("[Customer093ID] = @0", customer093ID).GetSingle();  
+            return this.Query().Where(new { Customer093ID = customer093ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer093ID)
@@ -1795,14 +1795,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer094Repository : Repository<Customer094>
     {
-        public Customer094Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer094Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer094 GetByKey(string customer094ID)
         {
-            return this.Query().Where("[Customer094ID] = @0", customer094ID).GetSingle();  
+            return this.Query().Where(new { Customer094ID = customer094ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer094ID)
@@ -1814,14 +1814,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer095Repository : Repository<Customer095>
     {
-        public Customer095Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer095Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer095 GetByKey(string customer095ID)
         {
-            return this.Query().Where("[Customer095ID] = @0", customer095ID).GetSingle();  
+            return this.Query().Where(new { Customer095ID = customer095ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer095ID)
@@ -1833,14 +1833,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer096Repository : Repository<Customer096>
     {
-        public Customer096Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer096Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer096 GetByKey(string customer096ID)
         {
-            return this.Query().Where("[Customer096ID] = @0", customer096ID).GetSingle();  
+            return this.Query().Where(new { Customer096ID = customer096ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer096ID)
@@ -1852,14 +1852,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer097Repository : Repository<Customer097>
     {
-        public Customer097Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer097Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer097 GetByKey(string customer097ID)
         {
-            return this.Query().Where("[Customer097ID] = @0", customer097ID).GetSingle();  
+            return this.Query().Where(new { Customer097ID = customer097ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer097ID)
@@ -1871,14 +1871,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer098Repository : Repository<Customer098>
     {
-        public Customer098Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer098Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer098 GetByKey(string customer098ID)
         {
-            return this.Query().Where("[Customer098ID] = @0", customer098ID).GetSingle();  
+            return this.Query().Where(new { Customer098ID = customer098ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer098ID)
@@ -1890,14 +1890,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer099Repository : Repository<Customer099>
     {
-        public Customer099Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer099Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer099 GetByKey(string customer099ID)
         {
-            return this.Query().Where("[Customer099ID] = @0", customer099ID).GetSingle();  
+            return this.Query().Where(new { Customer099ID = customer099ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer099ID)
@@ -1909,14 +1909,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer100Repository : Repository<Customer100>
     {
-        public Customer100Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Customer100Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Customer100 GetByKey(string customer100ID)
         {
-            return this.Query().Where("[Customer100ID] = @0", customer100ID).GetSingle();  
+            return this.Query().Where(new { Customer100ID = customer100ID }).GetSingle();  
         }
         
         public void DeleteByKey(string customer100ID)
@@ -1926,16 +1926,35 @@ namespace OrmBenchmark.Insula
     }
 
 
+    public partial class DiscountRepository : Repository<Discount>
+    {
+        public DiscountRepository(InsulaDatabase database)
+            : base(database)
+        {
+        }
+        
+        public Discount GetByKey(int discountID)
+        {
+            return this.Query().Where(new { DiscountID = discountID }).GetSingle();  
+        }
+        
+        public void DeleteByKey(int discountID)
+        {
+            this.Delete(new Discount() { DiscountID = discountID });
+        }
+    }
+
+
     public partial class ItemRepository : Repository<Item>
     {
-        public ItemRepository(InsulaDatabaseContext context)
-            : base(context)
+        public ItemRepository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item GetByKey(string itemID)
         {
-            return this.Query().Where("[ItemID] = @0", itemID).GetSingle();  
+            return this.Query().Where(new { ItemID = itemID }).GetSingle();  
         }
         
         public void DeleteByKey(string itemID)
@@ -1947,14 +1966,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item001Repository : Repository<Item001>
     {
-        public Item001Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item001Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item001 GetByKey(string item001ID)
         {
-            return this.Query().Where("[Item001ID] = @0", item001ID).GetSingle();  
+            return this.Query().Where(new { Item001ID = item001ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item001ID)
@@ -1966,14 +1985,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item002Repository : Repository<Item002>
     {
-        public Item002Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item002Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item002 GetByKey(string item002ID)
         {
-            return this.Query().Where("[Item002ID] = @0", item002ID).GetSingle();  
+            return this.Query().Where(new { Item002ID = item002ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item002ID)
@@ -1985,14 +2004,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item003Repository : Repository<Item003>
     {
-        public Item003Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item003Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item003 GetByKey(string item003ID)
         {
-            return this.Query().Where("[Item003ID] = @0", item003ID).GetSingle();  
+            return this.Query().Where(new { Item003ID = item003ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item003ID)
@@ -2004,14 +2023,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item004Repository : Repository<Item004>
     {
-        public Item004Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item004Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item004 GetByKey(string item004ID)
         {
-            return this.Query().Where("[Item004ID] = @0", item004ID).GetSingle();  
+            return this.Query().Where(new { Item004ID = item004ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item004ID)
@@ -2023,14 +2042,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item005Repository : Repository<Item005>
     {
-        public Item005Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item005Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item005 GetByKey(string item005ID)
         {
-            return this.Query().Where("[Item005ID] = @0", item005ID).GetSingle();  
+            return this.Query().Where(new { Item005ID = item005ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item005ID)
@@ -2042,14 +2061,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item006Repository : Repository<Item006>
     {
-        public Item006Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item006Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item006 GetByKey(string item006ID)
         {
-            return this.Query().Where("[Item006ID] = @0", item006ID).GetSingle();  
+            return this.Query().Where(new { Item006ID = item006ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item006ID)
@@ -2061,14 +2080,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item007Repository : Repository<Item007>
     {
-        public Item007Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item007Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item007 GetByKey(string item007ID)
         {
-            return this.Query().Where("[Item007ID] = @0", item007ID).GetSingle();  
+            return this.Query().Where(new { Item007ID = item007ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item007ID)
@@ -2080,14 +2099,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item008Repository : Repository<Item008>
     {
-        public Item008Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item008Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item008 GetByKey(string item008ID)
         {
-            return this.Query().Where("[Item008ID] = @0", item008ID).GetSingle();  
+            return this.Query().Where(new { Item008ID = item008ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item008ID)
@@ -2099,14 +2118,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item009Repository : Repository<Item009>
     {
-        public Item009Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item009Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item009 GetByKey(string item009ID)
         {
-            return this.Query().Where("[Item009ID] = @0", item009ID).GetSingle();  
+            return this.Query().Where(new { Item009ID = item009ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item009ID)
@@ -2118,14 +2137,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item010Repository : Repository<Item010>
     {
-        public Item010Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item010Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item010 GetByKey(string item010ID)
         {
-            return this.Query().Where("[Item010ID] = @0", item010ID).GetSingle();  
+            return this.Query().Where(new { Item010ID = item010ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item010ID)
@@ -2137,14 +2156,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item011Repository : Repository<Item011>
     {
-        public Item011Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item011Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item011 GetByKey(string item011ID)
         {
-            return this.Query().Where("[Item011ID] = @0", item011ID).GetSingle();  
+            return this.Query().Where(new { Item011ID = item011ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item011ID)
@@ -2156,14 +2175,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item012Repository : Repository<Item012>
     {
-        public Item012Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item012Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item012 GetByKey(string item012ID)
         {
-            return this.Query().Where("[Item012ID] = @0", item012ID).GetSingle();  
+            return this.Query().Where(new { Item012ID = item012ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item012ID)
@@ -2175,14 +2194,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item013Repository : Repository<Item013>
     {
-        public Item013Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item013Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item013 GetByKey(string item013ID)
         {
-            return this.Query().Where("[Item013ID] = @0", item013ID).GetSingle();  
+            return this.Query().Where(new { Item013ID = item013ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item013ID)
@@ -2194,14 +2213,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item014Repository : Repository<Item014>
     {
-        public Item014Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item014Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item014 GetByKey(string item014ID)
         {
-            return this.Query().Where("[Item014ID] = @0", item014ID).GetSingle();  
+            return this.Query().Where(new { Item014ID = item014ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item014ID)
@@ -2213,14 +2232,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item015Repository : Repository<Item015>
     {
-        public Item015Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item015Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item015 GetByKey(string item015ID)
         {
-            return this.Query().Where("[Item015ID] = @0", item015ID).GetSingle();  
+            return this.Query().Where(new { Item015ID = item015ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item015ID)
@@ -2232,14 +2251,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item016Repository : Repository<Item016>
     {
-        public Item016Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item016Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item016 GetByKey(string item016ID)
         {
-            return this.Query().Where("[Item016ID] = @0", item016ID).GetSingle();  
+            return this.Query().Where(new { Item016ID = item016ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item016ID)
@@ -2251,14 +2270,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item017Repository : Repository<Item017>
     {
-        public Item017Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item017Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item017 GetByKey(string item017ID)
         {
-            return this.Query().Where("[Item017ID] = @0", item017ID).GetSingle();  
+            return this.Query().Where(new { Item017ID = item017ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item017ID)
@@ -2270,14 +2289,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item018Repository : Repository<Item018>
     {
-        public Item018Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item018Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item018 GetByKey(string item018ID)
         {
-            return this.Query().Where("[Item018ID] = @0", item018ID).GetSingle();  
+            return this.Query().Where(new { Item018ID = item018ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item018ID)
@@ -2289,14 +2308,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item019Repository : Repository<Item019>
     {
-        public Item019Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item019Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item019 GetByKey(string item019ID)
         {
-            return this.Query().Where("[Item019ID] = @0", item019ID).GetSingle();  
+            return this.Query().Where(new { Item019ID = item019ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item019ID)
@@ -2308,14 +2327,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item020Repository : Repository<Item020>
     {
-        public Item020Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item020Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item020 GetByKey(string item020ID)
         {
-            return this.Query().Where("[Item020ID] = @0", item020ID).GetSingle();  
+            return this.Query().Where(new { Item020ID = item020ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item020ID)
@@ -2327,14 +2346,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item021Repository : Repository<Item021>
     {
-        public Item021Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item021Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item021 GetByKey(string item021ID)
         {
-            return this.Query().Where("[Item021ID] = @0", item021ID).GetSingle();  
+            return this.Query().Where(new { Item021ID = item021ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item021ID)
@@ -2346,14 +2365,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item022Repository : Repository<Item022>
     {
-        public Item022Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item022Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item022 GetByKey(string item022ID)
         {
-            return this.Query().Where("[Item022ID] = @0", item022ID).GetSingle();  
+            return this.Query().Where(new { Item022ID = item022ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item022ID)
@@ -2365,14 +2384,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item023Repository : Repository<Item023>
     {
-        public Item023Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item023Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item023 GetByKey(string item023ID)
         {
-            return this.Query().Where("[Item023ID] = @0", item023ID).GetSingle();  
+            return this.Query().Where(new { Item023ID = item023ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item023ID)
@@ -2384,14 +2403,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item024Repository : Repository<Item024>
     {
-        public Item024Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item024Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item024 GetByKey(string item024ID)
         {
-            return this.Query().Where("[Item024ID] = @0", item024ID).GetSingle();  
+            return this.Query().Where(new { Item024ID = item024ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item024ID)
@@ -2403,14 +2422,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item025Repository : Repository<Item025>
     {
-        public Item025Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item025Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item025 GetByKey(string item025ID)
         {
-            return this.Query().Where("[Item025ID] = @0", item025ID).GetSingle();  
+            return this.Query().Where(new { Item025ID = item025ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item025ID)
@@ -2422,14 +2441,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item026Repository : Repository<Item026>
     {
-        public Item026Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item026Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item026 GetByKey(string item026ID)
         {
-            return this.Query().Where("[Item026ID] = @0", item026ID).GetSingle();  
+            return this.Query().Where(new { Item026ID = item026ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item026ID)
@@ -2441,14 +2460,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item027Repository : Repository<Item027>
     {
-        public Item027Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item027Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item027 GetByKey(string item027ID)
         {
-            return this.Query().Where("[Item027ID] = @0", item027ID).GetSingle();  
+            return this.Query().Where(new { Item027ID = item027ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item027ID)
@@ -2460,14 +2479,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item028Repository : Repository<Item028>
     {
-        public Item028Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item028Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item028 GetByKey(string item028ID)
         {
-            return this.Query().Where("[Item028ID] = @0", item028ID).GetSingle();  
+            return this.Query().Where(new { Item028ID = item028ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item028ID)
@@ -2479,14 +2498,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item029Repository : Repository<Item029>
     {
-        public Item029Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item029Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item029 GetByKey(string item029ID)
         {
-            return this.Query().Where("[Item029ID] = @0", item029ID).GetSingle();  
+            return this.Query().Where(new { Item029ID = item029ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item029ID)
@@ -2498,14 +2517,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item030Repository : Repository<Item030>
     {
-        public Item030Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item030Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item030 GetByKey(string item030ID)
         {
-            return this.Query().Where("[Item030ID] = @0", item030ID).GetSingle();  
+            return this.Query().Where(new { Item030ID = item030ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item030ID)
@@ -2517,14 +2536,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item031Repository : Repository<Item031>
     {
-        public Item031Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item031Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item031 GetByKey(string item031ID)
         {
-            return this.Query().Where("[Item031ID] = @0", item031ID).GetSingle();  
+            return this.Query().Where(new { Item031ID = item031ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item031ID)
@@ -2536,14 +2555,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item032Repository : Repository<Item032>
     {
-        public Item032Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item032Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item032 GetByKey(string item032ID)
         {
-            return this.Query().Where("[Item032ID] = @0", item032ID).GetSingle();  
+            return this.Query().Where(new { Item032ID = item032ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item032ID)
@@ -2555,14 +2574,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item033Repository : Repository<Item033>
     {
-        public Item033Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item033Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item033 GetByKey(string item033ID)
         {
-            return this.Query().Where("[Item033ID] = @0", item033ID).GetSingle();  
+            return this.Query().Where(new { Item033ID = item033ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item033ID)
@@ -2574,14 +2593,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item034Repository : Repository<Item034>
     {
-        public Item034Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item034Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item034 GetByKey(string item034ID)
         {
-            return this.Query().Where("[Item034ID] = @0", item034ID).GetSingle();  
+            return this.Query().Where(new { Item034ID = item034ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item034ID)
@@ -2593,14 +2612,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item035Repository : Repository<Item035>
     {
-        public Item035Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item035Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item035 GetByKey(string item035ID)
         {
-            return this.Query().Where("[Item035ID] = @0", item035ID).GetSingle();  
+            return this.Query().Where(new { Item035ID = item035ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item035ID)
@@ -2612,14 +2631,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item036Repository : Repository<Item036>
     {
-        public Item036Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item036Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item036 GetByKey(string item036ID)
         {
-            return this.Query().Where("[Item036ID] = @0", item036ID).GetSingle();  
+            return this.Query().Where(new { Item036ID = item036ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item036ID)
@@ -2631,14 +2650,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item037Repository : Repository<Item037>
     {
-        public Item037Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item037Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item037 GetByKey(string item037ID)
         {
-            return this.Query().Where("[Item037ID] = @0", item037ID).GetSingle();  
+            return this.Query().Where(new { Item037ID = item037ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item037ID)
@@ -2650,14 +2669,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item038Repository : Repository<Item038>
     {
-        public Item038Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item038Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item038 GetByKey(string item038ID)
         {
-            return this.Query().Where("[Item038ID] = @0", item038ID).GetSingle();  
+            return this.Query().Where(new { Item038ID = item038ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item038ID)
@@ -2669,14 +2688,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item039Repository : Repository<Item039>
     {
-        public Item039Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item039Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item039 GetByKey(string item039ID)
         {
-            return this.Query().Where("[Item039ID] = @0", item039ID).GetSingle();  
+            return this.Query().Where(new { Item039ID = item039ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item039ID)
@@ -2688,14 +2707,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item040Repository : Repository<Item040>
     {
-        public Item040Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item040Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item040 GetByKey(string item040ID)
         {
-            return this.Query().Where("[Item040ID] = @0", item040ID).GetSingle();  
+            return this.Query().Where(new { Item040ID = item040ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item040ID)
@@ -2707,14 +2726,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item041Repository : Repository<Item041>
     {
-        public Item041Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item041Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item041 GetByKey(string item041ID)
         {
-            return this.Query().Where("[Item041ID] = @0", item041ID).GetSingle();  
+            return this.Query().Where(new { Item041ID = item041ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item041ID)
@@ -2726,14 +2745,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item042Repository : Repository<Item042>
     {
-        public Item042Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item042Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item042 GetByKey(string item042ID)
         {
-            return this.Query().Where("[Item042ID] = @0", item042ID).GetSingle();  
+            return this.Query().Where(new { Item042ID = item042ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item042ID)
@@ -2745,14 +2764,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item043Repository : Repository<Item043>
     {
-        public Item043Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item043Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item043 GetByKey(string item043ID)
         {
-            return this.Query().Where("[Item043ID] = @0", item043ID).GetSingle();  
+            return this.Query().Where(new { Item043ID = item043ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item043ID)
@@ -2764,14 +2783,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item044Repository : Repository<Item044>
     {
-        public Item044Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item044Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item044 GetByKey(string item044ID)
         {
-            return this.Query().Where("[Item044ID] = @0", item044ID).GetSingle();  
+            return this.Query().Where(new { Item044ID = item044ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item044ID)
@@ -2783,14 +2802,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item045Repository : Repository<Item045>
     {
-        public Item045Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item045Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item045 GetByKey(string item045ID)
         {
-            return this.Query().Where("[Item045ID] = @0", item045ID).GetSingle();  
+            return this.Query().Where(new { Item045ID = item045ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item045ID)
@@ -2802,14 +2821,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item046Repository : Repository<Item046>
     {
-        public Item046Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item046Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item046 GetByKey(string item046ID)
         {
-            return this.Query().Where("[Item046ID] = @0", item046ID).GetSingle();  
+            return this.Query().Where(new { Item046ID = item046ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item046ID)
@@ -2821,14 +2840,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item047Repository : Repository<Item047>
     {
-        public Item047Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item047Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item047 GetByKey(string item047ID)
         {
-            return this.Query().Where("[Item047ID] = @0", item047ID).GetSingle();  
+            return this.Query().Where(new { Item047ID = item047ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item047ID)
@@ -2840,14 +2859,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item048Repository : Repository<Item048>
     {
-        public Item048Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item048Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item048 GetByKey(string item048ID)
         {
-            return this.Query().Where("[Item048ID] = @0", item048ID).GetSingle();  
+            return this.Query().Where(new { Item048ID = item048ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item048ID)
@@ -2859,14 +2878,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item049Repository : Repository<Item049>
     {
-        public Item049Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item049Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item049 GetByKey(string item049ID)
         {
-            return this.Query().Where("[Item049ID] = @0", item049ID).GetSingle();  
+            return this.Query().Where(new { Item049ID = item049ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item049ID)
@@ -2878,14 +2897,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item050Repository : Repository<Item050>
     {
-        public Item050Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item050Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item050 GetByKey(string item050ID)
         {
-            return this.Query().Where("[Item050ID] = @0", item050ID).GetSingle();  
+            return this.Query().Where(new { Item050ID = item050ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item050ID)
@@ -2897,14 +2916,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item051Repository : Repository<Item051>
     {
-        public Item051Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item051Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item051 GetByKey(string item051ID)
         {
-            return this.Query().Where("[Item051ID] = @0", item051ID).GetSingle();  
+            return this.Query().Where(new { Item051ID = item051ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item051ID)
@@ -2916,14 +2935,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item052Repository : Repository<Item052>
     {
-        public Item052Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item052Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item052 GetByKey(string item052ID)
         {
-            return this.Query().Where("[Item052ID] = @0", item052ID).GetSingle();  
+            return this.Query().Where(new { Item052ID = item052ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item052ID)
@@ -2935,14 +2954,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item053Repository : Repository<Item053>
     {
-        public Item053Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item053Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item053 GetByKey(string item053ID)
         {
-            return this.Query().Where("[Item053ID] = @0", item053ID).GetSingle();  
+            return this.Query().Where(new { Item053ID = item053ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item053ID)
@@ -2954,14 +2973,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item054Repository : Repository<Item054>
     {
-        public Item054Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item054Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item054 GetByKey(string item054ID)
         {
-            return this.Query().Where("[Item054ID] = @0", item054ID).GetSingle();  
+            return this.Query().Where(new { Item054ID = item054ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item054ID)
@@ -2973,14 +2992,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item055Repository : Repository<Item055>
     {
-        public Item055Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item055Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item055 GetByKey(string item055ID)
         {
-            return this.Query().Where("[Item055ID] = @0", item055ID).GetSingle();  
+            return this.Query().Where(new { Item055ID = item055ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item055ID)
@@ -2992,14 +3011,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item056Repository : Repository<Item056>
     {
-        public Item056Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item056Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item056 GetByKey(string item056ID)
         {
-            return this.Query().Where("[Item056ID] = @0", item056ID).GetSingle();  
+            return this.Query().Where(new { Item056ID = item056ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item056ID)
@@ -3011,14 +3030,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item057Repository : Repository<Item057>
     {
-        public Item057Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item057Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item057 GetByKey(string item057ID)
         {
-            return this.Query().Where("[Item057ID] = @0", item057ID).GetSingle();  
+            return this.Query().Where(new { Item057ID = item057ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item057ID)
@@ -3030,14 +3049,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item058Repository : Repository<Item058>
     {
-        public Item058Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item058Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item058 GetByKey(string item058ID)
         {
-            return this.Query().Where("[Item058ID] = @0", item058ID).GetSingle();  
+            return this.Query().Where(new { Item058ID = item058ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item058ID)
@@ -3049,14 +3068,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item059Repository : Repository<Item059>
     {
-        public Item059Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item059Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item059 GetByKey(string item059ID)
         {
-            return this.Query().Where("[Item059ID] = @0", item059ID).GetSingle();  
+            return this.Query().Where(new { Item059ID = item059ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item059ID)
@@ -3068,14 +3087,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item060Repository : Repository<Item060>
     {
-        public Item060Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item060Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item060 GetByKey(string item060ID)
         {
-            return this.Query().Where("[Item060ID] = @0", item060ID).GetSingle();  
+            return this.Query().Where(new { Item060ID = item060ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item060ID)
@@ -3087,14 +3106,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item061Repository : Repository<Item061>
     {
-        public Item061Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item061Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item061 GetByKey(string item061ID)
         {
-            return this.Query().Where("[Item061ID] = @0", item061ID).GetSingle();  
+            return this.Query().Where(new { Item061ID = item061ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item061ID)
@@ -3106,14 +3125,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item062Repository : Repository<Item062>
     {
-        public Item062Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item062Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item062 GetByKey(string item062ID)
         {
-            return this.Query().Where("[Item062ID] = @0", item062ID).GetSingle();  
+            return this.Query().Where(new { Item062ID = item062ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item062ID)
@@ -3125,14 +3144,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item063Repository : Repository<Item063>
     {
-        public Item063Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item063Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item063 GetByKey(string item063ID)
         {
-            return this.Query().Where("[Item063ID] = @0", item063ID).GetSingle();  
+            return this.Query().Where(new { Item063ID = item063ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item063ID)
@@ -3144,14 +3163,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item064Repository : Repository<Item064>
     {
-        public Item064Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item064Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item064 GetByKey(string item064ID)
         {
-            return this.Query().Where("[Item064ID] = @0", item064ID).GetSingle();  
+            return this.Query().Where(new { Item064ID = item064ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item064ID)
@@ -3163,14 +3182,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item065Repository : Repository<Item065>
     {
-        public Item065Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item065Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item065 GetByKey(string item065ID)
         {
-            return this.Query().Where("[Item065ID] = @0", item065ID).GetSingle();  
+            return this.Query().Where(new { Item065ID = item065ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item065ID)
@@ -3182,14 +3201,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item066Repository : Repository<Item066>
     {
-        public Item066Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item066Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item066 GetByKey(string item066ID)
         {
-            return this.Query().Where("[Item066ID] = @0", item066ID).GetSingle();  
+            return this.Query().Where(new { Item066ID = item066ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item066ID)
@@ -3201,14 +3220,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item067Repository : Repository<Item067>
     {
-        public Item067Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item067Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item067 GetByKey(string item067ID)
         {
-            return this.Query().Where("[Item067ID] = @0", item067ID).GetSingle();  
+            return this.Query().Where(new { Item067ID = item067ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item067ID)
@@ -3220,14 +3239,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item068Repository : Repository<Item068>
     {
-        public Item068Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item068Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item068 GetByKey(string item068ID)
         {
-            return this.Query().Where("[Item068ID] = @0", item068ID).GetSingle();  
+            return this.Query().Where(new { Item068ID = item068ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item068ID)
@@ -3239,14 +3258,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item069Repository : Repository<Item069>
     {
-        public Item069Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item069Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item069 GetByKey(string item069ID)
         {
-            return this.Query().Where("[Item069ID] = @0", item069ID).GetSingle();  
+            return this.Query().Where(new { Item069ID = item069ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item069ID)
@@ -3258,14 +3277,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item070Repository : Repository<Item070>
     {
-        public Item070Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item070Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item070 GetByKey(string item070ID)
         {
-            return this.Query().Where("[Item070ID] = @0", item070ID).GetSingle();  
+            return this.Query().Where(new { Item070ID = item070ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item070ID)
@@ -3277,14 +3296,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item071Repository : Repository<Item071>
     {
-        public Item071Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item071Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item071 GetByKey(string item071ID)
         {
-            return this.Query().Where("[Item071ID] = @0", item071ID).GetSingle();  
+            return this.Query().Where(new { Item071ID = item071ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item071ID)
@@ -3296,14 +3315,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item072Repository : Repository<Item072>
     {
-        public Item072Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item072Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item072 GetByKey(string item072ID)
         {
-            return this.Query().Where("[Item072ID] = @0", item072ID).GetSingle();  
+            return this.Query().Where(new { Item072ID = item072ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item072ID)
@@ -3315,14 +3334,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item073Repository : Repository<Item073>
     {
-        public Item073Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item073Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item073 GetByKey(string item073ID)
         {
-            return this.Query().Where("[Item073ID] = @0", item073ID).GetSingle();  
+            return this.Query().Where(new { Item073ID = item073ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item073ID)
@@ -3334,14 +3353,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item074Repository : Repository<Item074>
     {
-        public Item074Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item074Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item074 GetByKey(string item074ID)
         {
-            return this.Query().Where("[Item074ID] = @0", item074ID).GetSingle();  
+            return this.Query().Where(new { Item074ID = item074ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item074ID)
@@ -3353,14 +3372,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item075Repository : Repository<Item075>
     {
-        public Item075Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item075Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item075 GetByKey(string item075ID)
         {
-            return this.Query().Where("[Item075ID] = @0", item075ID).GetSingle();  
+            return this.Query().Where(new { Item075ID = item075ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item075ID)
@@ -3372,14 +3391,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item076Repository : Repository<Item076>
     {
-        public Item076Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item076Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item076 GetByKey(string item076ID)
         {
-            return this.Query().Where("[Item076ID] = @0", item076ID).GetSingle();  
+            return this.Query().Where(new { Item076ID = item076ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item076ID)
@@ -3391,14 +3410,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item077Repository : Repository<Item077>
     {
-        public Item077Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item077Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item077 GetByKey(string item077ID)
         {
-            return this.Query().Where("[Item077ID] = @0", item077ID).GetSingle();  
+            return this.Query().Where(new { Item077ID = item077ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item077ID)
@@ -3410,14 +3429,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item078Repository : Repository<Item078>
     {
-        public Item078Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item078Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item078 GetByKey(string item078ID)
         {
-            return this.Query().Where("[Item078ID] = @0", item078ID).GetSingle();  
+            return this.Query().Where(new { Item078ID = item078ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item078ID)
@@ -3429,14 +3448,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item079Repository : Repository<Item079>
     {
-        public Item079Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item079Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item079 GetByKey(string item079ID)
         {
-            return this.Query().Where("[Item079ID] = @0", item079ID).GetSingle();  
+            return this.Query().Where(new { Item079ID = item079ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item079ID)
@@ -3448,14 +3467,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item080Repository : Repository<Item080>
     {
-        public Item080Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item080Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item080 GetByKey(string item080ID)
         {
-            return this.Query().Where("[Item080ID] = @0", item080ID).GetSingle();  
+            return this.Query().Where(new { Item080ID = item080ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item080ID)
@@ -3467,14 +3486,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item081Repository : Repository<Item081>
     {
-        public Item081Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item081Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item081 GetByKey(string item081ID)
         {
-            return this.Query().Where("[Item081ID] = @0", item081ID).GetSingle();  
+            return this.Query().Where(new { Item081ID = item081ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item081ID)
@@ -3486,14 +3505,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item082Repository : Repository<Item082>
     {
-        public Item082Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item082Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item082 GetByKey(string item082ID)
         {
-            return this.Query().Where("[Item082ID] = @0", item082ID).GetSingle();  
+            return this.Query().Where(new { Item082ID = item082ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item082ID)
@@ -3505,14 +3524,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item083Repository : Repository<Item083>
     {
-        public Item083Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item083Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item083 GetByKey(string item083ID)
         {
-            return this.Query().Where("[Item083ID] = @0", item083ID).GetSingle();  
+            return this.Query().Where(new { Item083ID = item083ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item083ID)
@@ -3524,14 +3543,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item084Repository : Repository<Item084>
     {
-        public Item084Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item084Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item084 GetByKey(string item084ID)
         {
-            return this.Query().Where("[Item084ID] = @0", item084ID).GetSingle();  
+            return this.Query().Where(new { Item084ID = item084ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item084ID)
@@ -3543,14 +3562,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item085Repository : Repository<Item085>
     {
-        public Item085Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item085Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item085 GetByKey(string item085ID)
         {
-            return this.Query().Where("[Item085ID] = @0", item085ID).GetSingle();  
+            return this.Query().Where(new { Item085ID = item085ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item085ID)
@@ -3562,14 +3581,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item086Repository : Repository<Item086>
     {
-        public Item086Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item086Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item086 GetByKey(string item086ID)
         {
-            return this.Query().Where("[Item086ID] = @0", item086ID).GetSingle();  
+            return this.Query().Where(new { Item086ID = item086ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item086ID)
@@ -3581,14 +3600,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item087Repository : Repository<Item087>
     {
-        public Item087Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item087Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item087 GetByKey(string item087ID)
         {
-            return this.Query().Where("[Item087ID] = @0", item087ID).GetSingle();  
+            return this.Query().Where(new { Item087ID = item087ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item087ID)
@@ -3600,14 +3619,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item088Repository : Repository<Item088>
     {
-        public Item088Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item088Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item088 GetByKey(string item088ID)
         {
-            return this.Query().Where("[Item088ID] = @0", item088ID).GetSingle();  
+            return this.Query().Where(new { Item088ID = item088ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item088ID)
@@ -3619,14 +3638,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item089Repository : Repository<Item089>
     {
-        public Item089Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item089Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item089 GetByKey(string item089ID)
         {
-            return this.Query().Where("[Item089ID] = @0", item089ID).GetSingle();  
+            return this.Query().Where(new { Item089ID = item089ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item089ID)
@@ -3638,14 +3657,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item090Repository : Repository<Item090>
     {
-        public Item090Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item090Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item090 GetByKey(string item090ID)
         {
-            return this.Query().Where("[Item090ID] = @0", item090ID).GetSingle();  
+            return this.Query().Where(new { Item090ID = item090ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item090ID)
@@ -3657,14 +3676,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item091Repository : Repository<Item091>
     {
-        public Item091Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item091Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item091 GetByKey(string item091ID)
         {
-            return this.Query().Where("[Item091ID] = @0", item091ID).GetSingle();  
+            return this.Query().Where(new { Item091ID = item091ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item091ID)
@@ -3676,14 +3695,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item092Repository : Repository<Item092>
     {
-        public Item092Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item092Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item092 GetByKey(string item092ID)
         {
-            return this.Query().Where("[Item092ID] = @0", item092ID).GetSingle();  
+            return this.Query().Where(new { Item092ID = item092ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item092ID)
@@ -3695,14 +3714,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item093Repository : Repository<Item093>
     {
-        public Item093Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item093Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item093 GetByKey(string item093ID)
         {
-            return this.Query().Where("[Item093ID] = @0", item093ID).GetSingle();  
+            return this.Query().Where(new { Item093ID = item093ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item093ID)
@@ -3714,14 +3733,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item094Repository : Repository<Item094>
     {
-        public Item094Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item094Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item094 GetByKey(string item094ID)
         {
-            return this.Query().Where("[Item094ID] = @0", item094ID).GetSingle();  
+            return this.Query().Where(new { Item094ID = item094ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item094ID)
@@ -3733,14 +3752,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item095Repository : Repository<Item095>
     {
-        public Item095Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item095Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item095 GetByKey(string item095ID)
         {
-            return this.Query().Where("[Item095ID] = @0", item095ID).GetSingle();  
+            return this.Query().Where(new { Item095ID = item095ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item095ID)
@@ -3752,14 +3771,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item096Repository : Repository<Item096>
     {
-        public Item096Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item096Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item096 GetByKey(string item096ID)
         {
-            return this.Query().Where("[Item096ID] = @0", item096ID).GetSingle();  
+            return this.Query().Where(new { Item096ID = item096ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item096ID)
@@ -3771,14 +3790,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item097Repository : Repository<Item097>
     {
-        public Item097Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item097Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item097 GetByKey(string item097ID)
         {
-            return this.Query().Where("[Item097ID] = @0", item097ID).GetSingle();  
+            return this.Query().Where(new { Item097ID = item097ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item097ID)
@@ -3790,14 +3809,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item098Repository : Repository<Item098>
     {
-        public Item098Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item098Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item098 GetByKey(string item098ID)
         {
-            return this.Query().Where("[Item098ID] = @0", item098ID).GetSingle();  
+            return this.Query().Where(new { Item098ID = item098ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item098ID)
@@ -3809,14 +3828,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item099Repository : Repository<Item099>
     {
-        public Item099Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item099Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item099 GetByKey(string item099ID)
         {
-            return this.Query().Where("[Item099ID] = @0", item099ID).GetSingle();  
+            return this.Query().Where(new { Item099ID = item099ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item099ID)
@@ -3828,14 +3847,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Item100Repository : Repository<Item100>
     {
-        public Item100Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Item100Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Item100 GetByKey(string item100ID)
         {
-            return this.Query().Where("[Item100ID] = @0", item100ID).GetSingle();  
+            return this.Query().Where(new { Item100ID = item100ID }).GetSingle();  
         }
         
         public void DeleteByKey(string item100ID)
@@ -3847,14 +3866,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderRepository : Repository<Order>
     {
-        public OrderRepository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderRepository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order GetByKey(int orderID)
         {
-            return this.Query().Where("[OrderID] = @0", orderID).GetSingle();  
+            return this.Query().Where(new { OrderID = orderID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderID)
@@ -3866,14 +3885,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order001Repository : Repository<Order001>
     {
-        public Order001Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order001Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order001 GetByKey(int order001ID)
         {
-            return this.Query().Where("[Order001ID] = @0", order001ID).GetSingle();  
+            return this.Query().Where(new { Order001ID = order001ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order001ID)
@@ -3885,14 +3904,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order002Repository : Repository<Order002>
     {
-        public Order002Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order002Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order002 GetByKey(int order002ID)
         {
-            return this.Query().Where("[Order002ID] = @0", order002ID).GetSingle();  
+            return this.Query().Where(new { Order002ID = order002ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order002ID)
@@ -3904,14 +3923,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order003Repository : Repository<Order003>
     {
-        public Order003Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order003Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order003 GetByKey(int order003ID)
         {
-            return this.Query().Where("[Order003ID] = @0", order003ID).GetSingle();  
+            return this.Query().Where(new { Order003ID = order003ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order003ID)
@@ -3923,14 +3942,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order004Repository : Repository<Order004>
     {
-        public Order004Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order004Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order004 GetByKey(int order004ID)
         {
-            return this.Query().Where("[Order004ID] = @0", order004ID).GetSingle();  
+            return this.Query().Where(new { Order004ID = order004ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order004ID)
@@ -3942,14 +3961,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order005Repository : Repository<Order005>
     {
-        public Order005Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order005Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order005 GetByKey(int order005ID)
         {
-            return this.Query().Where("[Order005ID] = @0", order005ID).GetSingle();  
+            return this.Query().Where(new { Order005ID = order005ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order005ID)
@@ -3961,14 +3980,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order006Repository : Repository<Order006>
     {
-        public Order006Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order006Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order006 GetByKey(int order006ID)
         {
-            return this.Query().Where("[Order006ID] = @0", order006ID).GetSingle();  
+            return this.Query().Where(new { Order006ID = order006ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order006ID)
@@ -3980,14 +3999,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order007Repository : Repository<Order007>
     {
-        public Order007Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order007Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order007 GetByKey(int order007ID)
         {
-            return this.Query().Where("[Order007ID] = @0", order007ID).GetSingle();  
+            return this.Query().Where(new { Order007ID = order007ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order007ID)
@@ -3999,14 +4018,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order008Repository : Repository<Order008>
     {
-        public Order008Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order008Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order008 GetByKey(int order008ID)
         {
-            return this.Query().Where("[Order008ID] = @0", order008ID).GetSingle();  
+            return this.Query().Where(new { Order008ID = order008ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order008ID)
@@ -4018,14 +4037,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order009Repository : Repository<Order009>
     {
-        public Order009Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order009Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order009 GetByKey(int order009ID)
         {
-            return this.Query().Where("[Order009ID] = @0", order009ID).GetSingle();  
+            return this.Query().Where(new { Order009ID = order009ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order009ID)
@@ -4037,14 +4056,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order010Repository : Repository<Order010>
     {
-        public Order010Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order010Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order010 GetByKey(int order010ID)
         {
-            return this.Query().Where("[Order010ID] = @0", order010ID).GetSingle();  
+            return this.Query().Where(new { Order010ID = order010ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order010ID)
@@ -4056,14 +4075,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order011Repository : Repository<Order011>
     {
-        public Order011Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order011Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order011 GetByKey(int order011ID)
         {
-            return this.Query().Where("[Order011ID] = @0", order011ID).GetSingle();  
+            return this.Query().Where(new { Order011ID = order011ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order011ID)
@@ -4075,14 +4094,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order012Repository : Repository<Order012>
     {
-        public Order012Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order012Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order012 GetByKey(int order012ID)
         {
-            return this.Query().Where("[Order012ID] = @0", order012ID).GetSingle();  
+            return this.Query().Where(new { Order012ID = order012ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order012ID)
@@ -4094,14 +4113,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order013Repository : Repository<Order013>
     {
-        public Order013Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order013Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order013 GetByKey(int order013ID)
         {
-            return this.Query().Where("[Order013ID] = @0", order013ID).GetSingle();  
+            return this.Query().Where(new { Order013ID = order013ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order013ID)
@@ -4113,14 +4132,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order014Repository : Repository<Order014>
     {
-        public Order014Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order014Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order014 GetByKey(int order014ID)
         {
-            return this.Query().Where("[Order014ID] = @0", order014ID).GetSingle();  
+            return this.Query().Where(new { Order014ID = order014ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order014ID)
@@ -4132,14 +4151,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order015Repository : Repository<Order015>
     {
-        public Order015Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order015Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order015 GetByKey(int order015ID)
         {
-            return this.Query().Where("[Order015ID] = @0", order015ID).GetSingle();  
+            return this.Query().Where(new { Order015ID = order015ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order015ID)
@@ -4151,14 +4170,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order016Repository : Repository<Order016>
     {
-        public Order016Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order016Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order016 GetByKey(int order016ID)
         {
-            return this.Query().Where("[Order016ID] = @0", order016ID).GetSingle();  
+            return this.Query().Where(new { Order016ID = order016ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order016ID)
@@ -4170,14 +4189,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order017Repository : Repository<Order017>
     {
-        public Order017Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order017Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order017 GetByKey(int order017ID)
         {
-            return this.Query().Where("[Order017ID] = @0", order017ID).GetSingle();  
+            return this.Query().Where(new { Order017ID = order017ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order017ID)
@@ -4189,14 +4208,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order018Repository : Repository<Order018>
     {
-        public Order018Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order018Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order018 GetByKey(int order018ID)
         {
-            return this.Query().Where("[Order018ID] = @0", order018ID).GetSingle();  
+            return this.Query().Where(new { Order018ID = order018ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order018ID)
@@ -4208,14 +4227,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order019Repository : Repository<Order019>
     {
-        public Order019Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order019Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order019 GetByKey(int order019ID)
         {
-            return this.Query().Where("[Order019ID] = @0", order019ID).GetSingle();  
+            return this.Query().Where(new { Order019ID = order019ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order019ID)
@@ -4227,14 +4246,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order020Repository : Repository<Order020>
     {
-        public Order020Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order020Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order020 GetByKey(int order020ID)
         {
-            return this.Query().Where("[Order020ID] = @0", order020ID).GetSingle();  
+            return this.Query().Where(new { Order020ID = order020ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order020ID)
@@ -4246,14 +4265,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order021Repository : Repository<Order021>
     {
-        public Order021Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order021Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order021 GetByKey(int order021ID)
         {
-            return this.Query().Where("[Order021ID] = @0", order021ID).GetSingle();  
+            return this.Query().Where(new { Order021ID = order021ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order021ID)
@@ -4265,14 +4284,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order022Repository : Repository<Order022>
     {
-        public Order022Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order022Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order022 GetByKey(int order022ID)
         {
-            return this.Query().Where("[Order022ID] = @0", order022ID).GetSingle();  
+            return this.Query().Where(new { Order022ID = order022ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order022ID)
@@ -4284,14 +4303,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order023Repository : Repository<Order023>
     {
-        public Order023Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order023Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order023 GetByKey(int order023ID)
         {
-            return this.Query().Where("[Order023ID] = @0", order023ID).GetSingle();  
+            return this.Query().Where(new { Order023ID = order023ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order023ID)
@@ -4303,14 +4322,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order024Repository : Repository<Order024>
     {
-        public Order024Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order024Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order024 GetByKey(int order024ID)
         {
-            return this.Query().Where("[Order024ID] = @0", order024ID).GetSingle();  
+            return this.Query().Where(new { Order024ID = order024ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order024ID)
@@ -4322,14 +4341,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order025Repository : Repository<Order025>
     {
-        public Order025Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order025Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order025 GetByKey(int order025ID)
         {
-            return this.Query().Where("[Order025ID] = @0", order025ID).GetSingle();  
+            return this.Query().Where(new { Order025ID = order025ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order025ID)
@@ -4341,14 +4360,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order026Repository : Repository<Order026>
     {
-        public Order026Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order026Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order026 GetByKey(int order026ID)
         {
-            return this.Query().Where("[Order026ID] = @0", order026ID).GetSingle();  
+            return this.Query().Where(new { Order026ID = order026ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order026ID)
@@ -4360,14 +4379,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order027Repository : Repository<Order027>
     {
-        public Order027Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order027Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order027 GetByKey(int order027ID)
         {
-            return this.Query().Where("[Order027ID] = @0", order027ID).GetSingle();  
+            return this.Query().Where(new { Order027ID = order027ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order027ID)
@@ -4379,14 +4398,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order028Repository : Repository<Order028>
     {
-        public Order028Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order028Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order028 GetByKey(int order028ID)
         {
-            return this.Query().Where("[Order028ID] = @0", order028ID).GetSingle();  
+            return this.Query().Where(new { Order028ID = order028ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order028ID)
@@ -4398,14 +4417,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order029Repository : Repository<Order029>
     {
-        public Order029Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order029Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order029 GetByKey(int order029ID)
         {
-            return this.Query().Where("[Order029ID] = @0", order029ID).GetSingle();  
+            return this.Query().Where(new { Order029ID = order029ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order029ID)
@@ -4417,14 +4436,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order030Repository : Repository<Order030>
     {
-        public Order030Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order030Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order030 GetByKey(int order030ID)
         {
-            return this.Query().Where("[Order030ID] = @0", order030ID).GetSingle();  
+            return this.Query().Where(new { Order030ID = order030ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order030ID)
@@ -4436,14 +4455,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order031Repository : Repository<Order031>
     {
-        public Order031Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order031Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order031 GetByKey(int order031ID)
         {
-            return this.Query().Where("[Order031ID] = @0", order031ID).GetSingle();  
+            return this.Query().Where(new { Order031ID = order031ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order031ID)
@@ -4455,14 +4474,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order032Repository : Repository<Order032>
     {
-        public Order032Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order032Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order032 GetByKey(int order032ID)
         {
-            return this.Query().Where("[Order032ID] = @0", order032ID).GetSingle();  
+            return this.Query().Where(new { Order032ID = order032ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order032ID)
@@ -4474,14 +4493,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order033Repository : Repository<Order033>
     {
-        public Order033Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order033Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order033 GetByKey(int order033ID)
         {
-            return this.Query().Where("[Order033ID] = @0", order033ID).GetSingle();  
+            return this.Query().Where(new { Order033ID = order033ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order033ID)
@@ -4493,14 +4512,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order034Repository : Repository<Order034>
     {
-        public Order034Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order034Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order034 GetByKey(int order034ID)
         {
-            return this.Query().Where("[Order034ID] = @0", order034ID).GetSingle();  
+            return this.Query().Where(new { Order034ID = order034ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order034ID)
@@ -4512,14 +4531,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order035Repository : Repository<Order035>
     {
-        public Order035Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order035Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order035 GetByKey(int order035ID)
         {
-            return this.Query().Where("[Order035ID] = @0", order035ID).GetSingle();  
+            return this.Query().Where(new { Order035ID = order035ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order035ID)
@@ -4531,14 +4550,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order036Repository : Repository<Order036>
     {
-        public Order036Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order036Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order036 GetByKey(int order036ID)
         {
-            return this.Query().Where("[Order036ID] = @0", order036ID).GetSingle();  
+            return this.Query().Where(new { Order036ID = order036ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order036ID)
@@ -4550,14 +4569,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order037Repository : Repository<Order037>
     {
-        public Order037Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order037Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order037 GetByKey(int order037ID)
         {
-            return this.Query().Where("[Order037ID] = @0", order037ID).GetSingle();  
+            return this.Query().Where(new { Order037ID = order037ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order037ID)
@@ -4569,14 +4588,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order038Repository : Repository<Order038>
     {
-        public Order038Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order038Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order038 GetByKey(int order038ID)
         {
-            return this.Query().Where("[Order038ID] = @0", order038ID).GetSingle();  
+            return this.Query().Where(new { Order038ID = order038ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order038ID)
@@ -4588,14 +4607,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order039Repository : Repository<Order039>
     {
-        public Order039Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order039Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order039 GetByKey(int order039ID)
         {
-            return this.Query().Where("[Order039ID] = @0", order039ID).GetSingle();  
+            return this.Query().Where(new { Order039ID = order039ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order039ID)
@@ -4607,14 +4626,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order040Repository : Repository<Order040>
     {
-        public Order040Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order040Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order040 GetByKey(int order040ID)
         {
-            return this.Query().Where("[Order040ID] = @0", order040ID).GetSingle();  
+            return this.Query().Where(new { Order040ID = order040ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order040ID)
@@ -4626,14 +4645,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order041Repository : Repository<Order041>
     {
-        public Order041Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order041Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order041 GetByKey(int order041ID)
         {
-            return this.Query().Where("[Order041ID] = @0", order041ID).GetSingle();  
+            return this.Query().Where(new { Order041ID = order041ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order041ID)
@@ -4645,14 +4664,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order042Repository : Repository<Order042>
     {
-        public Order042Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order042Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order042 GetByKey(int order042ID)
         {
-            return this.Query().Where("[Order042ID] = @0", order042ID).GetSingle();  
+            return this.Query().Where(new { Order042ID = order042ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order042ID)
@@ -4664,14 +4683,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order043Repository : Repository<Order043>
     {
-        public Order043Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order043Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order043 GetByKey(int order043ID)
         {
-            return this.Query().Where("[Order043ID] = @0", order043ID).GetSingle();  
+            return this.Query().Where(new { Order043ID = order043ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order043ID)
@@ -4683,14 +4702,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order044Repository : Repository<Order044>
     {
-        public Order044Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order044Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order044 GetByKey(int order044ID)
         {
-            return this.Query().Where("[Order044ID] = @0", order044ID).GetSingle();  
+            return this.Query().Where(new { Order044ID = order044ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order044ID)
@@ -4702,14 +4721,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order045Repository : Repository<Order045>
     {
-        public Order045Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order045Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order045 GetByKey(int order045ID)
         {
-            return this.Query().Where("[Order045ID] = @0", order045ID).GetSingle();  
+            return this.Query().Where(new { Order045ID = order045ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order045ID)
@@ -4721,14 +4740,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order046Repository : Repository<Order046>
     {
-        public Order046Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order046Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order046 GetByKey(int order046ID)
         {
-            return this.Query().Where("[Order046ID] = @0", order046ID).GetSingle();  
+            return this.Query().Where(new { Order046ID = order046ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order046ID)
@@ -4740,14 +4759,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order047Repository : Repository<Order047>
     {
-        public Order047Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order047Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order047 GetByKey(int order047ID)
         {
-            return this.Query().Where("[Order047ID] = @0", order047ID).GetSingle();  
+            return this.Query().Where(new { Order047ID = order047ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order047ID)
@@ -4759,14 +4778,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order048Repository : Repository<Order048>
     {
-        public Order048Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order048Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order048 GetByKey(int order048ID)
         {
-            return this.Query().Where("[Order048ID] = @0", order048ID).GetSingle();  
+            return this.Query().Where(new { Order048ID = order048ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order048ID)
@@ -4778,14 +4797,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order049Repository : Repository<Order049>
     {
-        public Order049Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order049Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order049 GetByKey(int order049ID)
         {
-            return this.Query().Where("[Order049ID] = @0", order049ID).GetSingle();  
+            return this.Query().Where(new { Order049ID = order049ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order049ID)
@@ -4797,14 +4816,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order050Repository : Repository<Order050>
     {
-        public Order050Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order050Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order050 GetByKey(int order050ID)
         {
-            return this.Query().Where("[Order050ID] = @0", order050ID).GetSingle();  
+            return this.Query().Where(new { Order050ID = order050ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order050ID)
@@ -4816,14 +4835,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order051Repository : Repository<Order051>
     {
-        public Order051Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order051Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order051 GetByKey(int order051ID)
         {
-            return this.Query().Where("[Order051ID] = @0", order051ID).GetSingle();  
+            return this.Query().Where(new { Order051ID = order051ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order051ID)
@@ -4835,14 +4854,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order052Repository : Repository<Order052>
     {
-        public Order052Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order052Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order052 GetByKey(int order052ID)
         {
-            return this.Query().Where("[Order052ID] = @0", order052ID).GetSingle();  
+            return this.Query().Where(new { Order052ID = order052ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order052ID)
@@ -4854,14 +4873,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order053Repository : Repository<Order053>
     {
-        public Order053Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order053Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order053 GetByKey(int order053ID)
         {
-            return this.Query().Where("[Order053ID] = @0", order053ID).GetSingle();  
+            return this.Query().Where(new { Order053ID = order053ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order053ID)
@@ -4873,14 +4892,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order054Repository : Repository<Order054>
     {
-        public Order054Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order054Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order054 GetByKey(int order054ID)
         {
-            return this.Query().Where("[Order054ID] = @0", order054ID).GetSingle();  
+            return this.Query().Where(new { Order054ID = order054ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order054ID)
@@ -4892,14 +4911,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order055Repository : Repository<Order055>
     {
-        public Order055Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order055Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order055 GetByKey(int order055ID)
         {
-            return this.Query().Where("[Order055ID] = @0", order055ID).GetSingle();  
+            return this.Query().Where(new { Order055ID = order055ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order055ID)
@@ -4911,14 +4930,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order056Repository : Repository<Order056>
     {
-        public Order056Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order056Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order056 GetByKey(int order056ID)
         {
-            return this.Query().Where("[Order056ID] = @0", order056ID).GetSingle();  
+            return this.Query().Where(new { Order056ID = order056ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order056ID)
@@ -4930,14 +4949,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order057Repository : Repository<Order057>
     {
-        public Order057Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order057Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order057 GetByKey(int order057ID)
         {
-            return this.Query().Where("[Order057ID] = @0", order057ID).GetSingle();  
+            return this.Query().Where(new { Order057ID = order057ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order057ID)
@@ -4949,14 +4968,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order058Repository : Repository<Order058>
     {
-        public Order058Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order058Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order058 GetByKey(int order058ID)
         {
-            return this.Query().Where("[Order058ID] = @0", order058ID).GetSingle();  
+            return this.Query().Where(new { Order058ID = order058ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order058ID)
@@ -4968,14 +4987,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order059Repository : Repository<Order059>
     {
-        public Order059Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order059Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order059 GetByKey(int order059ID)
         {
-            return this.Query().Where("[Order059ID] = @0", order059ID).GetSingle();  
+            return this.Query().Where(new { Order059ID = order059ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order059ID)
@@ -4987,14 +5006,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order060Repository : Repository<Order060>
     {
-        public Order060Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order060Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order060 GetByKey(int order060ID)
         {
-            return this.Query().Where("[Order060ID] = @0", order060ID).GetSingle();  
+            return this.Query().Where(new { Order060ID = order060ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order060ID)
@@ -5006,14 +5025,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order061Repository : Repository<Order061>
     {
-        public Order061Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order061Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order061 GetByKey(int order061ID)
         {
-            return this.Query().Where("[Order061ID] = @0", order061ID).GetSingle();  
+            return this.Query().Where(new { Order061ID = order061ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order061ID)
@@ -5025,14 +5044,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order062Repository : Repository<Order062>
     {
-        public Order062Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order062Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order062 GetByKey(int order062ID)
         {
-            return this.Query().Where("[Order062ID] = @0", order062ID).GetSingle();  
+            return this.Query().Where(new { Order062ID = order062ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order062ID)
@@ -5044,14 +5063,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order063Repository : Repository<Order063>
     {
-        public Order063Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order063Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order063 GetByKey(int order063ID)
         {
-            return this.Query().Where("[Order063ID] = @0", order063ID).GetSingle();  
+            return this.Query().Where(new { Order063ID = order063ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order063ID)
@@ -5063,14 +5082,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order064Repository : Repository<Order064>
     {
-        public Order064Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order064Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order064 GetByKey(int order064ID)
         {
-            return this.Query().Where("[Order064ID] = @0", order064ID).GetSingle();  
+            return this.Query().Where(new { Order064ID = order064ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order064ID)
@@ -5082,14 +5101,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order065Repository : Repository<Order065>
     {
-        public Order065Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order065Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order065 GetByKey(int order065ID)
         {
-            return this.Query().Where("[Order065ID] = @0", order065ID).GetSingle();  
+            return this.Query().Where(new { Order065ID = order065ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order065ID)
@@ -5101,14 +5120,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order066Repository : Repository<Order066>
     {
-        public Order066Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order066Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order066 GetByKey(int order066ID)
         {
-            return this.Query().Where("[Order066ID] = @0", order066ID).GetSingle();  
+            return this.Query().Where(new { Order066ID = order066ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order066ID)
@@ -5120,14 +5139,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order067Repository : Repository<Order067>
     {
-        public Order067Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order067Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order067 GetByKey(int order067ID)
         {
-            return this.Query().Where("[Order067ID] = @0", order067ID).GetSingle();  
+            return this.Query().Where(new { Order067ID = order067ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order067ID)
@@ -5139,14 +5158,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order068Repository : Repository<Order068>
     {
-        public Order068Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order068Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order068 GetByKey(int order068ID)
         {
-            return this.Query().Where("[Order068ID] = @0", order068ID).GetSingle();  
+            return this.Query().Where(new { Order068ID = order068ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order068ID)
@@ -5158,14 +5177,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order069Repository : Repository<Order069>
     {
-        public Order069Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order069Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order069 GetByKey(int order069ID)
         {
-            return this.Query().Where("[Order069ID] = @0", order069ID).GetSingle();  
+            return this.Query().Where(new { Order069ID = order069ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order069ID)
@@ -5177,14 +5196,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order070Repository : Repository<Order070>
     {
-        public Order070Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order070Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order070 GetByKey(int order070ID)
         {
-            return this.Query().Where("[Order070ID] = @0", order070ID).GetSingle();  
+            return this.Query().Where(new { Order070ID = order070ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order070ID)
@@ -5196,14 +5215,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order071Repository : Repository<Order071>
     {
-        public Order071Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order071Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order071 GetByKey(int order071ID)
         {
-            return this.Query().Where("[Order071ID] = @0", order071ID).GetSingle();  
+            return this.Query().Where(new { Order071ID = order071ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order071ID)
@@ -5215,14 +5234,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order072Repository : Repository<Order072>
     {
-        public Order072Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order072Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order072 GetByKey(int order072ID)
         {
-            return this.Query().Where("[Order072ID] = @0", order072ID).GetSingle();  
+            return this.Query().Where(new { Order072ID = order072ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order072ID)
@@ -5234,14 +5253,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order073Repository : Repository<Order073>
     {
-        public Order073Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order073Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order073 GetByKey(int order073ID)
         {
-            return this.Query().Where("[Order073ID] = @0", order073ID).GetSingle();  
+            return this.Query().Where(new { Order073ID = order073ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order073ID)
@@ -5253,14 +5272,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order074Repository : Repository<Order074>
     {
-        public Order074Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order074Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order074 GetByKey(int order074ID)
         {
-            return this.Query().Where("[Order074ID] = @0", order074ID).GetSingle();  
+            return this.Query().Where(new { Order074ID = order074ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order074ID)
@@ -5272,14 +5291,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order075Repository : Repository<Order075>
     {
-        public Order075Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order075Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order075 GetByKey(int order075ID)
         {
-            return this.Query().Where("[Order075ID] = @0", order075ID).GetSingle();  
+            return this.Query().Where(new { Order075ID = order075ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order075ID)
@@ -5291,14 +5310,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order076Repository : Repository<Order076>
     {
-        public Order076Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order076Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order076 GetByKey(int order076ID)
         {
-            return this.Query().Where("[Order076ID] = @0", order076ID).GetSingle();  
+            return this.Query().Where(new { Order076ID = order076ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order076ID)
@@ -5310,14 +5329,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order077Repository : Repository<Order077>
     {
-        public Order077Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order077Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order077 GetByKey(int order077ID)
         {
-            return this.Query().Where("[Order077ID] = @0", order077ID).GetSingle();  
+            return this.Query().Where(new { Order077ID = order077ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order077ID)
@@ -5329,14 +5348,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order078Repository : Repository<Order078>
     {
-        public Order078Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order078Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order078 GetByKey(int order078ID)
         {
-            return this.Query().Where("[Order078ID] = @0", order078ID).GetSingle();  
+            return this.Query().Where(new { Order078ID = order078ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order078ID)
@@ -5348,14 +5367,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order079Repository : Repository<Order079>
     {
-        public Order079Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order079Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order079 GetByKey(int order079ID)
         {
-            return this.Query().Where("[Order079ID] = @0", order079ID).GetSingle();  
+            return this.Query().Where(new { Order079ID = order079ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order079ID)
@@ -5367,14 +5386,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order080Repository : Repository<Order080>
     {
-        public Order080Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order080Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order080 GetByKey(int order080ID)
         {
-            return this.Query().Where("[Order080ID] = @0", order080ID).GetSingle();  
+            return this.Query().Where(new { Order080ID = order080ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order080ID)
@@ -5386,14 +5405,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order081Repository : Repository<Order081>
     {
-        public Order081Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order081Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order081 GetByKey(int order081ID)
         {
-            return this.Query().Where("[Order081ID] = @0", order081ID).GetSingle();  
+            return this.Query().Where(new { Order081ID = order081ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order081ID)
@@ -5405,14 +5424,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order082Repository : Repository<Order082>
     {
-        public Order082Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order082Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order082 GetByKey(int order082ID)
         {
-            return this.Query().Where("[Order082ID] = @0", order082ID).GetSingle();  
+            return this.Query().Where(new { Order082ID = order082ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order082ID)
@@ -5424,14 +5443,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order083Repository : Repository<Order083>
     {
-        public Order083Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order083Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order083 GetByKey(int order083ID)
         {
-            return this.Query().Where("[Order083ID] = @0", order083ID).GetSingle();  
+            return this.Query().Where(new { Order083ID = order083ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order083ID)
@@ -5443,14 +5462,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order084Repository : Repository<Order084>
     {
-        public Order084Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order084Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order084 GetByKey(int order084ID)
         {
-            return this.Query().Where("[Order084ID] = @0", order084ID).GetSingle();  
+            return this.Query().Where(new { Order084ID = order084ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order084ID)
@@ -5462,14 +5481,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order085Repository : Repository<Order085>
     {
-        public Order085Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order085Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order085 GetByKey(int order085ID)
         {
-            return this.Query().Where("[Order085ID] = @0", order085ID).GetSingle();  
+            return this.Query().Where(new { Order085ID = order085ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order085ID)
@@ -5481,14 +5500,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order086Repository : Repository<Order086>
     {
-        public Order086Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order086Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order086 GetByKey(int order086ID)
         {
-            return this.Query().Where("[Order086ID] = @0", order086ID).GetSingle();  
+            return this.Query().Where(new { Order086ID = order086ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order086ID)
@@ -5500,14 +5519,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order087Repository : Repository<Order087>
     {
-        public Order087Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order087Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order087 GetByKey(int order087ID)
         {
-            return this.Query().Where("[Order087ID] = @0", order087ID).GetSingle();  
+            return this.Query().Where(new { Order087ID = order087ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order087ID)
@@ -5519,14 +5538,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order088Repository : Repository<Order088>
     {
-        public Order088Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order088Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order088 GetByKey(int order088ID)
         {
-            return this.Query().Where("[Order088ID] = @0", order088ID).GetSingle();  
+            return this.Query().Where(new { Order088ID = order088ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order088ID)
@@ -5538,14 +5557,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order089Repository : Repository<Order089>
     {
-        public Order089Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order089Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order089 GetByKey(int order089ID)
         {
-            return this.Query().Where("[Order089ID] = @0", order089ID).GetSingle();  
+            return this.Query().Where(new { Order089ID = order089ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order089ID)
@@ -5557,14 +5576,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order090Repository : Repository<Order090>
     {
-        public Order090Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order090Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order090 GetByKey(int order090ID)
         {
-            return this.Query().Where("[Order090ID] = @0", order090ID).GetSingle();  
+            return this.Query().Where(new { Order090ID = order090ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order090ID)
@@ -5576,14 +5595,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order091Repository : Repository<Order091>
     {
-        public Order091Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order091Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order091 GetByKey(int order091ID)
         {
-            return this.Query().Where("[Order091ID] = @0", order091ID).GetSingle();  
+            return this.Query().Where(new { Order091ID = order091ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order091ID)
@@ -5595,14 +5614,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order092Repository : Repository<Order092>
     {
-        public Order092Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order092Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order092 GetByKey(int order092ID)
         {
-            return this.Query().Where("[Order092ID] = @0", order092ID).GetSingle();  
+            return this.Query().Where(new { Order092ID = order092ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order092ID)
@@ -5614,14 +5633,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order093Repository : Repository<Order093>
     {
-        public Order093Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order093Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order093 GetByKey(int order093ID)
         {
-            return this.Query().Where("[Order093ID] = @0", order093ID).GetSingle();  
+            return this.Query().Where(new { Order093ID = order093ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order093ID)
@@ -5633,14 +5652,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order094Repository : Repository<Order094>
     {
-        public Order094Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order094Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order094 GetByKey(int order094ID)
         {
-            return this.Query().Where("[Order094ID] = @0", order094ID).GetSingle();  
+            return this.Query().Where(new { Order094ID = order094ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order094ID)
@@ -5652,14 +5671,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order095Repository : Repository<Order095>
     {
-        public Order095Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order095Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order095 GetByKey(int order095ID)
         {
-            return this.Query().Where("[Order095ID] = @0", order095ID).GetSingle();  
+            return this.Query().Where(new { Order095ID = order095ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order095ID)
@@ -5671,14 +5690,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order096Repository : Repository<Order096>
     {
-        public Order096Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order096Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order096 GetByKey(int order096ID)
         {
-            return this.Query().Where("[Order096ID] = @0", order096ID).GetSingle();  
+            return this.Query().Where(new { Order096ID = order096ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order096ID)
@@ -5690,14 +5709,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order097Repository : Repository<Order097>
     {
-        public Order097Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order097Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order097 GetByKey(int order097ID)
         {
-            return this.Query().Where("[Order097ID] = @0", order097ID).GetSingle();  
+            return this.Query().Where(new { Order097ID = order097ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order097ID)
@@ -5709,14 +5728,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order098Repository : Repository<Order098>
     {
-        public Order098Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order098Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order098 GetByKey(int order098ID)
         {
-            return this.Query().Where("[Order098ID] = @0", order098ID).GetSingle();  
+            return this.Query().Where(new { Order098ID = order098ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order098ID)
@@ -5728,14 +5747,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order099Repository : Repository<Order099>
     {
-        public Order099Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order099Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order099 GetByKey(int order099ID)
         {
-            return this.Query().Where("[Order099ID] = @0", order099ID).GetSingle();  
+            return this.Query().Where(new { Order099ID = order099ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order099ID)
@@ -5747,14 +5766,14 @@ namespace OrmBenchmark.Insula
 
     public partial class Order100Repository : Repository<Order100>
     {
-        public Order100Repository(InsulaDatabaseContext context)
-            : base(context)
+        public Order100Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public Order100 GetByKey(int order100ID)
         {
-            return this.Query().Where("[Order100ID] = @0", order100ID).GetSingle();  
+            return this.Query().Where(new { Order100ID = order100ID }).GetSingle();  
         }
         
         public void DeleteByKey(int order100ID)
@@ -5766,14 +5785,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLineRepository : Repository<OrderLine>
     {
-        public OrderLineRepository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLineRepository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine GetByKey(int orderLineID)
         {
-            return this.Query().Where("[OrderLineID] = @0", orderLineID).GetSingle();  
+            return this.Query().Where(new { OrderLineID = orderLineID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLineID)
@@ -5785,14 +5804,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine001Repository : Repository<OrderLine001>
     {
-        public OrderLine001Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine001Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine001 GetByKey(int orderLine001ID)
         {
-            return this.Query().Where("[OrderLine001ID] = @0", orderLine001ID).GetSingle();  
+            return this.Query().Where(new { OrderLine001ID = orderLine001ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine001ID)
@@ -5804,14 +5823,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine002Repository : Repository<OrderLine002>
     {
-        public OrderLine002Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine002Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine002 GetByKey(int orderLine002ID)
         {
-            return this.Query().Where("[OrderLine002ID] = @0", orderLine002ID).GetSingle();  
+            return this.Query().Where(new { OrderLine002ID = orderLine002ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine002ID)
@@ -5823,14 +5842,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine003Repository : Repository<OrderLine003>
     {
-        public OrderLine003Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine003Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine003 GetByKey(int orderLine003ID)
         {
-            return this.Query().Where("[OrderLine003ID] = @0", orderLine003ID).GetSingle();  
+            return this.Query().Where(new { OrderLine003ID = orderLine003ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine003ID)
@@ -5842,14 +5861,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine004Repository : Repository<OrderLine004>
     {
-        public OrderLine004Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine004Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine004 GetByKey(int orderLine004ID)
         {
-            return this.Query().Where("[OrderLine004ID] = @0", orderLine004ID).GetSingle();  
+            return this.Query().Where(new { OrderLine004ID = orderLine004ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine004ID)
@@ -5861,14 +5880,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine005Repository : Repository<OrderLine005>
     {
-        public OrderLine005Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine005Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine005 GetByKey(int orderLine005ID)
         {
-            return this.Query().Where("[OrderLine005ID] = @0", orderLine005ID).GetSingle();  
+            return this.Query().Where(new { OrderLine005ID = orderLine005ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine005ID)
@@ -5880,14 +5899,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine006Repository : Repository<OrderLine006>
     {
-        public OrderLine006Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine006Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine006 GetByKey(int orderLine006ID)
         {
-            return this.Query().Where("[OrderLine006ID] = @0", orderLine006ID).GetSingle();  
+            return this.Query().Where(new { OrderLine006ID = orderLine006ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine006ID)
@@ -5899,14 +5918,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine007Repository : Repository<OrderLine007>
     {
-        public OrderLine007Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine007Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine007 GetByKey(int orderLine007ID)
         {
-            return this.Query().Where("[OrderLine007ID] = @0", orderLine007ID).GetSingle();  
+            return this.Query().Where(new { OrderLine007ID = orderLine007ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine007ID)
@@ -5918,14 +5937,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine008Repository : Repository<OrderLine008>
     {
-        public OrderLine008Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine008Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine008 GetByKey(int orderLine008ID)
         {
-            return this.Query().Where("[OrderLine008ID] = @0", orderLine008ID).GetSingle();  
+            return this.Query().Where(new { OrderLine008ID = orderLine008ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine008ID)
@@ -5937,14 +5956,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine009Repository : Repository<OrderLine009>
     {
-        public OrderLine009Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine009Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine009 GetByKey(int orderLine009ID)
         {
-            return this.Query().Where("[OrderLine009ID] = @0", orderLine009ID).GetSingle();  
+            return this.Query().Where(new { OrderLine009ID = orderLine009ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine009ID)
@@ -5956,14 +5975,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine010Repository : Repository<OrderLine010>
     {
-        public OrderLine010Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine010Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine010 GetByKey(int orderLine010ID)
         {
-            return this.Query().Where("[OrderLine010ID] = @0", orderLine010ID).GetSingle();  
+            return this.Query().Where(new { OrderLine010ID = orderLine010ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine010ID)
@@ -5975,14 +5994,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine011Repository : Repository<OrderLine011>
     {
-        public OrderLine011Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine011Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine011 GetByKey(int orderLine011ID)
         {
-            return this.Query().Where("[OrderLine011ID] = @0", orderLine011ID).GetSingle();  
+            return this.Query().Where(new { OrderLine011ID = orderLine011ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine011ID)
@@ -5994,14 +6013,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine012Repository : Repository<OrderLine012>
     {
-        public OrderLine012Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine012Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine012 GetByKey(int orderLine012ID)
         {
-            return this.Query().Where("[OrderLine012ID] = @0", orderLine012ID).GetSingle();  
+            return this.Query().Where(new { OrderLine012ID = orderLine012ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine012ID)
@@ -6013,14 +6032,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine013Repository : Repository<OrderLine013>
     {
-        public OrderLine013Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine013Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine013 GetByKey(int orderLine013ID)
         {
-            return this.Query().Where("[OrderLine013ID] = @0", orderLine013ID).GetSingle();  
+            return this.Query().Where(new { OrderLine013ID = orderLine013ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine013ID)
@@ -6032,14 +6051,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine014Repository : Repository<OrderLine014>
     {
-        public OrderLine014Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine014Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine014 GetByKey(int orderLine014ID)
         {
-            return this.Query().Where("[OrderLine014ID] = @0", orderLine014ID).GetSingle();  
+            return this.Query().Where(new { OrderLine014ID = orderLine014ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine014ID)
@@ -6051,14 +6070,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine015Repository : Repository<OrderLine015>
     {
-        public OrderLine015Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine015Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine015 GetByKey(int orderLine015ID)
         {
-            return this.Query().Where("[OrderLine015ID] = @0", orderLine015ID).GetSingle();  
+            return this.Query().Where(new { OrderLine015ID = orderLine015ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine015ID)
@@ -6070,14 +6089,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine016Repository : Repository<OrderLine016>
     {
-        public OrderLine016Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine016Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine016 GetByKey(int orderLine016ID)
         {
-            return this.Query().Where("[OrderLine016ID] = @0", orderLine016ID).GetSingle();  
+            return this.Query().Where(new { OrderLine016ID = orderLine016ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine016ID)
@@ -6089,14 +6108,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine017Repository : Repository<OrderLine017>
     {
-        public OrderLine017Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine017Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine017 GetByKey(int orderLine017ID)
         {
-            return this.Query().Where("[OrderLine017ID] = @0", orderLine017ID).GetSingle();  
+            return this.Query().Where(new { OrderLine017ID = orderLine017ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine017ID)
@@ -6108,14 +6127,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine018Repository : Repository<OrderLine018>
     {
-        public OrderLine018Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine018Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine018 GetByKey(int orderLine018ID)
         {
-            return this.Query().Where("[OrderLine018ID] = @0", orderLine018ID).GetSingle();  
+            return this.Query().Where(new { OrderLine018ID = orderLine018ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine018ID)
@@ -6127,14 +6146,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine019Repository : Repository<OrderLine019>
     {
-        public OrderLine019Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine019Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine019 GetByKey(int orderLine019ID)
         {
-            return this.Query().Where("[OrderLine019ID] = @0", orderLine019ID).GetSingle();  
+            return this.Query().Where(new { OrderLine019ID = orderLine019ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine019ID)
@@ -6146,14 +6165,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine020Repository : Repository<OrderLine020>
     {
-        public OrderLine020Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine020Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine020 GetByKey(int orderLine020ID)
         {
-            return this.Query().Where("[OrderLine020ID] = @0", orderLine020ID).GetSingle();  
+            return this.Query().Where(new { OrderLine020ID = orderLine020ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine020ID)
@@ -6165,14 +6184,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine021Repository : Repository<OrderLine021>
     {
-        public OrderLine021Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine021Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine021 GetByKey(int orderLine021ID)
         {
-            return this.Query().Where("[OrderLine021ID] = @0", orderLine021ID).GetSingle();  
+            return this.Query().Where(new { OrderLine021ID = orderLine021ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine021ID)
@@ -6184,14 +6203,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine022Repository : Repository<OrderLine022>
     {
-        public OrderLine022Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine022Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine022 GetByKey(int orderLine022ID)
         {
-            return this.Query().Where("[OrderLine022ID] = @0", orderLine022ID).GetSingle();  
+            return this.Query().Where(new { OrderLine022ID = orderLine022ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine022ID)
@@ -6203,14 +6222,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine023Repository : Repository<OrderLine023>
     {
-        public OrderLine023Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine023Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine023 GetByKey(int orderLine023ID)
         {
-            return this.Query().Where("[OrderLine023ID] = @0", orderLine023ID).GetSingle();  
+            return this.Query().Where(new { OrderLine023ID = orderLine023ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine023ID)
@@ -6222,14 +6241,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine024Repository : Repository<OrderLine024>
     {
-        public OrderLine024Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine024Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine024 GetByKey(int orderLine024ID)
         {
-            return this.Query().Where("[OrderLine024ID] = @0", orderLine024ID).GetSingle();  
+            return this.Query().Where(new { OrderLine024ID = orderLine024ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine024ID)
@@ -6241,14 +6260,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine025Repository : Repository<OrderLine025>
     {
-        public OrderLine025Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine025Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine025 GetByKey(int orderLine025ID)
         {
-            return this.Query().Where("[OrderLine025ID] = @0", orderLine025ID).GetSingle();  
+            return this.Query().Where(new { OrderLine025ID = orderLine025ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine025ID)
@@ -6260,14 +6279,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine026Repository : Repository<OrderLine026>
     {
-        public OrderLine026Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine026Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine026 GetByKey(int orderLine026ID)
         {
-            return this.Query().Where("[OrderLine026ID] = @0", orderLine026ID).GetSingle();  
+            return this.Query().Where(new { OrderLine026ID = orderLine026ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine026ID)
@@ -6279,14 +6298,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine027Repository : Repository<OrderLine027>
     {
-        public OrderLine027Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine027Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine027 GetByKey(int orderLine027ID)
         {
-            return this.Query().Where("[OrderLine027ID] = @0", orderLine027ID).GetSingle();  
+            return this.Query().Where(new { OrderLine027ID = orderLine027ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine027ID)
@@ -6298,14 +6317,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine028Repository : Repository<OrderLine028>
     {
-        public OrderLine028Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine028Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine028 GetByKey(int orderLine028ID)
         {
-            return this.Query().Where("[OrderLine028ID] = @0", orderLine028ID).GetSingle();  
+            return this.Query().Where(new { OrderLine028ID = orderLine028ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine028ID)
@@ -6317,14 +6336,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine029Repository : Repository<OrderLine029>
     {
-        public OrderLine029Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine029Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine029 GetByKey(int orderLine029ID)
         {
-            return this.Query().Where("[OrderLine029ID] = @0", orderLine029ID).GetSingle();  
+            return this.Query().Where(new { OrderLine029ID = orderLine029ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine029ID)
@@ -6336,14 +6355,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine030Repository : Repository<OrderLine030>
     {
-        public OrderLine030Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine030Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine030 GetByKey(int orderLine030ID)
         {
-            return this.Query().Where("[OrderLine030ID] = @0", orderLine030ID).GetSingle();  
+            return this.Query().Where(new { OrderLine030ID = orderLine030ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine030ID)
@@ -6355,14 +6374,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine031Repository : Repository<OrderLine031>
     {
-        public OrderLine031Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine031Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine031 GetByKey(int orderLine031ID)
         {
-            return this.Query().Where("[OrderLine031ID] = @0", orderLine031ID).GetSingle();  
+            return this.Query().Where(new { OrderLine031ID = orderLine031ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine031ID)
@@ -6374,14 +6393,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine032Repository : Repository<OrderLine032>
     {
-        public OrderLine032Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine032Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine032 GetByKey(int orderLine032ID)
         {
-            return this.Query().Where("[OrderLine032ID] = @0", orderLine032ID).GetSingle();  
+            return this.Query().Where(new { OrderLine032ID = orderLine032ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine032ID)
@@ -6393,14 +6412,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine033Repository : Repository<OrderLine033>
     {
-        public OrderLine033Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine033Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine033 GetByKey(int orderLine033ID)
         {
-            return this.Query().Where("[OrderLine033ID] = @0", orderLine033ID).GetSingle();  
+            return this.Query().Where(new { OrderLine033ID = orderLine033ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine033ID)
@@ -6412,14 +6431,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine034Repository : Repository<OrderLine034>
     {
-        public OrderLine034Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine034Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine034 GetByKey(int orderLine034ID)
         {
-            return this.Query().Where("[OrderLine034ID] = @0", orderLine034ID).GetSingle();  
+            return this.Query().Where(new { OrderLine034ID = orderLine034ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine034ID)
@@ -6431,14 +6450,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine035Repository : Repository<OrderLine035>
     {
-        public OrderLine035Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine035Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine035 GetByKey(int orderLine035ID)
         {
-            return this.Query().Where("[OrderLine035ID] = @0", orderLine035ID).GetSingle();  
+            return this.Query().Where(new { OrderLine035ID = orderLine035ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine035ID)
@@ -6450,14 +6469,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine036Repository : Repository<OrderLine036>
     {
-        public OrderLine036Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine036Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine036 GetByKey(int orderLine036ID)
         {
-            return this.Query().Where("[OrderLine036ID] = @0", orderLine036ID).GetSingle();  
+            return this.Query().Where(new { OrderLine036ID = orderLine036ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine036ID)
@@ -6469,14 +6488,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine037Repository : Repository<OrderLine037>
     {
-        public OrderLine037Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine037Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine037 GetByKey(int orderLine037ID)
         {
-            return this.Query().Where("[OrderLine037ID] = @0", orderLine037ID).GetSingle();  
+            return this.Query().Where(new { OrderLine037ID = orderLine037ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine037ID)
@@ -6488,14 +6507,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine038Repository : Repository<OrderLine038>
     {
-        public OrderLine038Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine038Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine038 GetByKey(int orderLine038ID)
         {
-            return this.Query().Where("[OrderLine038ID] = @0", orderLine038ID).GetSingle();  
+            return this.Query().Where(new { OrderLine038ID = orderLine038ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine038ID)
@@ -6507,14 +6526,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine039Repository : Repository<OrderLine039>
     {
-        public OrderLine039Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine039Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine039 GetByKey(int orderLine039ID)
         {
-            return this.Query().Where("[OrderLine039ID] = @0", orderLine039ID).GetSingle();  
+            return this.Query().Where(new { OrderLine039ID = orderLine039ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine039ID)
@@ -6526,14 +6545,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine040Repository : Repository<OrderLine040>
     {
-        public OrderLine040Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine040Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine040 GetByKey(int orderLine040ID)
         {
-            return this.Query().Where("[OrderLine040ID] = @0", orderLine040ID).GetSingle();  
+            return this.Query().Where(new { OrderLine040ID = orderLine040ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine040ID)
@@ -6545,14 +6564,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine041Repository : Repository<OrderLine041>
     {
-        public OrderLine041Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine041Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine041 GetByKey(int orderLine041ID)
         {
-            return this.Query().Where("[OrderLine041ID] = @0", orderLine041ID).GetSingle();  
+            return this.Query().Where(new { OrderLine041ID = orderLine041ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine041ID)
@@ -6564,14 +6583,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine042Repository : Repository<OrderLine042>
     {
-        public OrderLine042Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine042Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine042 GetByKey(int orderLine042ID)
         {
-            return this.Query().Where("[OrderLine042ID] = @0", orderLine042ID).GetSingle();  
+            return this.Query().Where(new { OrderLine042ID = orderLine042ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine042ID)
@@ -6583,14 +6602,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine043Repository : Repository<OrderLine043>
     {
-        public OrderLine043Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine043Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine043 GetByKey(int orderLine043ID)
         {
-            return this.Query().Where("[OrderLine043ID] = @0", orderLine043ID).GetSingle();  
+            return this.Query().Where(new { OrderLine043ID = orderLine043ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine043ID)
@@ -6602,14 +6621,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine044Repository : Repository<OrderLine044>
     {
-        public OrderLine044Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine044Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine044 GetByKey(int orderLine044ID)
         {
-            return this.Query().Where("[OrderLine044ID] = @0", orderLine044ID).GetSingle();  
+            return this.Query().Where(new { OrderLine044ID = orderLine044ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine044ID)
@@ -6621,14 +6640,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine045Repository : Repository<OrderLine045>
     {
-        public OrderLine045Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine045Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine045 GetByKey(int orderLine045ID)
         {
-            return this.Query().Where("[OrderLine045ID] = @0", orderLine045ID).GetSingle();  
+            return this.Query().Where(new { OrderLine045ID = orderLine045ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine045ID)
@@ -6640,14 +6659,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine046Repository : Repository<OrderLine046>
     {
-        public OrderLine046Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine046Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine046 GetByKey(int orderLine046ID)
         {
-            return this.Query().Where("[OrderLine046ID] = @0", orderLine046ID).GetSingle();  
+            return this.Query().Where(new { OrderLine046ID = orderLine046ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine046ID)
@@ -6659,14 +6678,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine047Repository : Repository<OrderLine047>
     {
-        public OrderLine047Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine047Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine047 GetByKey(int orderLine047ID)
         {
-            return this.Query().Where("[OrderLine047ID] = @0", orderLine047ID).GetSingle();  
+            return this.Query().Where(new { OrderLine047ID = orderLine047ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine047ID)
@@ -6678,14 +6697,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine048Repository : Repository<OrderLine048>
     {
-        public OrderLine048Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine048Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine048 GetByKey(int orderLine048ID)
         {
-            return this.Query().Where("[OrderLine048ID] = @0", orderLine048ID).GetSingle();  
+            return this.Query().Where(new { OrderLine048ID = orderLine048ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine048ID)
@@ -6697,14 +6716,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine049Repository : Repository<OrderLine049>
     {
-        public OrderLine049Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine049Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine049 GetByKey(int orderLine049ID)
         {
-            return this.Query().Where("[OrderLine049ID] = @0", orderLine049ID).GetSingle();  
+            return this.Query().Where(new { OrderLine049ID = orderLine049ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine049ID)
@@ -6716,14 +6735,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine050Repository : Repository<OrderLine050>
     {
-        public OrderLine050Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine050Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine050 GetByKey(int orderLine050ID)
         {
-            return this.Query().Where("[OrderLine050ID] = @0", orderLine050ID).GetSingle();  
+            return this.Query().Where(new { OrderLine050ID = orderLine050ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine050ID)
@@ -6735,14 +6754,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine051Repository : Repository<OrderLine051>
     {
-        public OrderLine051Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine051Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine051 GetByKey(int orderLine051ID)
         {
-            return this.Query().Where("[OrderLine051ID] = @0", orderLine051ID).GetSingle();  
+            return this.Query().Where(new { OrderLine051ID = orderLine051ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine051ID)
@@ -6754,14 +6773,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine052Repository : Repository<OrderLine052>
     {
-        public OrderLine052Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine052Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine052 GetByKey(int orderLine052ID)
         {
-            return this.Query().Where("[OrderLine052ID] = @0", orderLine052ID).GetSingle();  
+            return this.Query().Where(new { OrderLine052ID = orderLine052ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine052ID)
@@ -6773,14 +6792,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine053Repository : Repository<OrderLine053>
     {
-        public OrderLine053Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine053Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine053 GetByKey(int orderLine053ID)
         {
-            return this.Query().Where("[OrderLine053ID] = @0", orderLine053ID).GetSingle();  
+            return this.Query().Where(new { OrderLine053ID = orderLine053ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine053ID)
@@ -6792,14 +6811,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine054Repository : Repository<OrderLine054>
     {
-        public OrderLine054Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine054Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine054 GetByKey(int orderLine054ID)
         {
-            return this.Query().Where("[OrderLine054ID] = @0", orderLine054ID).GetSingle();  
+            return this.Query().Where(new { OrderLine054ID = orderLine054ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine054ID)
@@ -6811,14 +6830,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine055Repository : Repository<OrderLine055>
     {
-        public OrderLine055Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine055Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine055 GetByKey(int orderLine055ID)
         {
-            return this.Query().Where("[OrderLine055ID] = @0", orderLine055ID).GetSingle();  
+            return this.Query().Where(new { OrderLine055ID = orderLine055ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine055ID)
@@ -6830,14 +6849,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine056Repository : Repository<OrderLine056>
     {
-        public OrderLine056Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine056Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine056 GetByKey(int orderLine056ID)
         {
-            return this.Query().Where("[OrderLine056ID] = @0", orderLine056ID).GetSingle();  
+            return this.Query().Where(new { OrderLine056ID = orderLine056ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine056ID)
@@ -6849,14 +6868,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine057Repository : Repository<OrderLine057>
     {
-        public OrderLine057Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine057Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine057 GetByKey(int orderLine057ID)
         {
-            return this.Query().Where("[OrderLine057ID] = @0", orderLine057ID).GetSingle();  
+            return this.Query().Where(new { OrderLine057ID = orderLine057ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine057ID)
@@ -6868,14 +6887,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine058Repository : Repository<OrderLine058>
     {
-        public OrderLine058Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine058Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine058 GetByKey(int orderLine058ID)
         {
-            return this.Query().Where("[OrderLine058ID] = @0", orderLine058ID).GetSingle();  
+            return this.Query().Where(new { OrderLine058ID = orderLine058ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine058ID)
@@ -6887,14 +6906,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine059Repository : Repository<OrderLine059>
     {
-        public OrderLine059Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine059Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine059 GetByKey(int orderLine059ID)
         {
-            return this.Query().Where("[OrderLine059ID] = @0", orderLine059ID).GetSingle();  
+            return this.Query().Where(new { OrderLine059ID = orderLine059ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine059ID)
@@ -6906,14 +6925,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine060Repository : Repository<OrderLine060>
     {
-        public OrderLine060Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine060Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine060 GetByKey(int orderLine060ID)
         {
-            return this.Query().Where("[OrderLine060ID] = @0", orderLine060ID).GetSingle();  
+            return this.Query().Where(new { OrderLine060ID = orderLine060ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine060ID)
@@ -6925,14 +6944,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine061Repository : Repository<OrderLine061>
     {
-        public OrderLine061Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine061Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine061 GetByKey(int orderLine061ID)
         {
-            return this.Query().Where("[OrderLine061ID] = @0", orderLine061ID).GetSingle();  
+            return this.Query().Where(new { OrderLine061ID = orderLine061ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine061ID)
@@ -6944,14 +6963,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine062Repository : Repository<OrderLine062>
     {
-        public OrderLine062Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine062Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine062 GetByKey(int orderLine062ID)
         {
-            return this.Query().Where("[OrderLine062ID] = @0", orderLine062ID).GetSingle();  
+            return this.Query().Where(new { OrderLine062ID = orderLine062ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine062ID)
@@ -6963,14 +6982,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine063Repository : Repository<OrderLine063>
     {
-        public OrderLine063Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine063Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine063 GetByKey(int orderLine063ID)
         {
-            return this.Query().Where("[OrderLine063ID] = @0", orderLine063ID).GetSingle();  
+            return this.Query().Where(new { OrderLine063ID = orderLine063ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine063ID)
@@ -6982,14 +7001,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine064Repository : Repository<OrderLine064>
     {
-        public OrderLine064Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine064Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine064 GetByKey(int orderLine064ID)
         {
-            return this.Query().Where("[OrderLine064ID] = @0", orderLine064ID).GetSingle();  
+            return this.Query().Where(new { OrderLine064ID = orderLine064ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine064ID)
@@ -7001,14 +7020,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine065Repository : Repository<OrderLine065>
     {
-        public OrderLine065Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine065Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine065 GetByKey(int orderLine065ID)
         {
-            return this.Query().Where("[OrderLine065ID] = @0", orderLine065ID).GetSingle();  
+            return this.Query().Where(new { OrderLine065ID = orderLine065ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine065ID)
@@ -7020,14 +7039,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine066Repository : Repository<OrderLine066>
     {
-        public OrderLine066Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine066Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine066 GetByKey(int orderLine066ID)
         {
-            return this.Query().Where("[OrderLine066ID] = @0", orderLine066ID).GetSingle();  
+            return this.Query().Where(new { OrderLine066ID = orderLine066ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine066ID)
@@ -7039,14 +7058,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine067Repository : Repository<OrderLine067>
     {
-        public OrderLine067Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine067Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine067 GetByKey(int orderLine067ID)
         {
-            return this.Query().Where("[OrderLine067ID] = @0", orderLine067ID).GetSingle();  
+            return this.Query().Where(new { OrderLine067ID = orderLine067ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine067ID)
@@ -7058,14 +7077,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine068Repository : Repository<OrderLine068>
     {
-        public OrderLine068Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine068Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine068 GetByKey(int orderLine068ID)
         {
-            return this.Query().Where("[OrderLine068ID] = @0", orderLine068ID).GetSingle();  
+            return this.Query().Where(new { OrderLine068ID = orderLine068ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine068ID)
@@ -7077,14 +7096,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine069Repository : Repository<OrderLine069>
     {
-        public OrderLine069Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine069Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine069 GetByKey(int orderLine069ID)
         {
-            return this.Query().Where("[OrderLine069ID] = @0", orderLine069ID).GetSingle();  
+            return this.Query().Where(new { OrderLine069ID = orderLine069ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine069ID)
@@ -7096,14 +7115,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine070Repository : Repository<OrderLine070>
     {
-        public OrderLine070Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine070Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine070 GetByKey(int orderLine070ID)
         {
-            return this.Query().Where("[OrderLine070ID] = @0", orderLine070ID).GetSingle();  
+            return this.Query().Where(new { OrderLine070ID = orderLine070ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine070ID)
@@ -7115,14 +7134,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine071Repository : Repository<OrderLine071>
     {
-        public OrderLine071Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine071Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine071 GetByKey(int orderLine071ID)
         {
-            return this.Query().Where("[OrderLine071ID] = @0", orderLine071ID).GetSingle();  
+            return this.Query().Where(new { OrderLine071ID = orderLine071ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine071ID)
@@ -7134,14 +7153,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine072Repository : Repository<OrderLine072>
     {
-        public OrderLine072Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine072Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine072 GetByKey(int orderLine072ID)
         {
-            return this.Query().Where("[OrderLine072ID] = @0", orderLine072ID).GetSingle();  
+            return this.Query().Where(new { OrderLine072ID = orderLine072ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine072ID)
@@ -7153,14 +7172,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine073Repository : Repository<OrderLine073>
     {
-        public OrderLine073Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine073Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine073 GetByKey(int orderLine073ID)
         {
-            return this.Query().Where("[OrderLine073ID] = @0", orderLine073ID).GetSingle();  
+            return this.Query().Where(new { OrderLine073ID = orderLine073ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine073ID)
@@ -7172,14 +7191,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine074Repository : Repository<OrderLine074>
     {
-        public OrderLine074Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine074Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine074 GetByKey(int orderLine074ID)
         {
-            return this.Query().Where("[OrderLine074ID] = @0", orderLine074ID).GetSingle();  
+            return this.Query().Where(new { OrderLine074ID = orderLine074ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine074ID)
@@ -7191,14 +7210,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine075Repository : Repository<OrderLine075>
     {
-        public OrderLine075Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine075Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine075 GetByKey(int orderLine075ID)
         {
-            return this.Query().Where("[OrderLine075ID] = @0", orderLine075ID).GetSingle();  
+            return this.Query().Where(new { OrderLine075ID = orderLine075ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine075ID)
@@ -7210,14 +7229,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine076Repository : Repository<OrderLine076>
     {
-        public OrderLine076Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine076Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine076 GetByKey(int orderLine076ID)
         {
-            return this.Query().Where("[OrderLine076ID] = @0", orderLine076ID).GetSingle();  
+            return this.Query().Where(new { OrderLine076ID = orderLine076ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine076ID)
@@ -7229,14 +7248,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine077Repository : Repository<OrderLine077>
     {
-        public OrderLine077Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine077Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine077 GetByKey(int orderLine077ID)
         {
-            return this.Query().Where("[OrderLine077ID] = @0", orderLine077ID).GetSingle();  
+            return this.Query().Where(new { OrderLine077ID = orderLine077ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine077ID)
@@ -7248,14 +7267,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine078Repository : Repository<OrderLine078>
     {
-        public OrderLine078Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine078Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine078 GetByKey(int orderLine078ID)
         {
-            return this.Query().Where("[OrderLine078ID] = @0", orderLine078ID).GetSingle();  
+            return this.Query().Where(new { OrderLine078ID = orderLine078ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine078ID)
@@ -7267,14 +7286,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine079Repository : Repository<OrderLine079>
     {
-        public OrderLine079Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine079Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine079 GetByKey(int orderLine079ID)
         {
-            return this.Query().Where("[OrderLine079ID] = @0", orderLine079ID).GetSingle();  
+            return this.Query().Where(new { OrderLine079ID = orderLine079ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine079ID)
@@ -7286,14 +7305,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine080Repository : Repository<OrderLine080>
     {
-        public OrderLine080Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine080Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine080 GetByKey(int orderLine080ID)
         {
-            return this.Query().Where("[OrderLine080ID] = @0", orderLine080ID).GetSingle();  
+            return this.Query().Where(new { OrderLine080ID = orderLine080ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine080ID)
@@ -7305,14 +7324,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine081Repository : Repository<OrderLine081>
     {
-        public OrderLine081Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine081Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine081 GetByKey(int orderLine081ID)
         {
-            return this.Query().Where("[OrderLine081ID] = @0", orderLine081ID).GetSingle();  
+            return this.Query().Where(new { OrderLine081ID = orderLine081ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine081ID)
@@ -7324,14 +7343,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine082Repository : Repository<OrderLine082>
     {
-        public OrderLine082Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine082Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine082 GetByKey(int orderLine082ID)
         {
-            return this.Query().Where("[OrderLine082ID] = @0", orderLine082ID).GetSingle();  
+            return this.Query().Where(new { OrderLine082ID = orderLine082ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine082ID)
@@ -7343,14 +7362,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine083Repository : Repository<OrderLine083>
     {
-        public OrderLine083Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine083Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine083 GetByKey(int orderLine083ID)
         {
-            return this.Query().Where("[OrderLine083ID] = @0", orderLine083ID).GetSingle();  
+            return this.Query().Where(new { OrderLine083ID = orderLine083ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine083ID)
@@ -7362,14 +7381,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine084Repository : Repository<OrderLine084>
     {
-        public OrderLine084Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine084Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine084 GetByKey(int orderLine084ID)
         {
-            return this.Query().Where("[OrderLine084ID] = @0", orderLine084ID).GetSingle();  
+            return this.Query().Where(new { OrderLine084ID = orderLine084ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine084ID)
@@ -7381,14 +7400,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine085Repository : Repository<OrderLine085>
     {
-        public OrderLine085Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine085Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine085 GetByKey(int orderLine085ID)
         {
-            return this.Query().Where("[OrderLine085ID] = @0", orderLine085ID).GetSingle();  
+            return this.Query().Where(new { OrderLine085ID = orderLine085ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine085ID)
@@ -7400,14 +7419,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine086Repository : Repository<OrderLine086>
     {
-        public OrderLine086Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine086Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine086 GetByKey(int orderLine086ID)
         {
-            return this.Query().Where("[OrderLine086ID] = @0", orderLine086ID).GetSingle();  
+            return this.Query().Where(new { OrderLine086ID = orderLine086ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine086ID)
@@ -7419,14 +7438,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine087Repository : Repository<OrderLine087>
     {
-        public OrderLine087Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine087Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine087 GetByKey(int orderLine087ID)
         {
-            return this.Query().Where("[OrderLine087ID] = @0", orderLine087ID).GetSingle();  
+            return this.Query().Where(new { OrderLine087ID = orderLine087ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine087ID)
@@ -7438,14 +7457,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine088Repository : Repository<OrderLine088>
     {
-        public OrderLine088Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine088Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine088 GetByKey(int orderLine088ID)
         {
-            return this.Query().Where("[OrderLine088ID] = @0", orderLine088ID).GetSingle();  
+            return this.Query().Where(new { OrderLine088ID = orderLine088ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine088ID)
@@ -7457,14 +7476,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine089Repository : Repository<OrderLine089>
     {
-        public OrderLine089Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine089Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine089 GetByKey(int orderLine089ID)
         {
-            return this.Query().Where("[OrderLine089ID] = @0", orderLine089ID).GetSingle();  
+            return this.Query().Where(new { OrderLine089ID = orderLine089ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine089ID)
@@ -7476,14 +7495,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine090Repository : Repository<OrderLine090>
     {
-        public OrderLine090Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine090Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine090 GetByKey(int orderLine090ID)
         {
-            return this.Query().Where("[OrderLine090ID] = @0", orderLine090ID).GetSingle();  
+            return this.Query().Where(new { OrderLine090ID = orderLine090ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine090ID)
@@ -7495,14 +7514,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine091Repository : Repository<OrderLine091>
     {
-        public OrderLine091Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine091Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine091 GetByKey(int orderLine091ID)
         {
-            return this.Query().Where("[OrderLine091ID] = @0", orderLine091ID).GetSingle();  
+            return this.Query().Where(new { OrderLine091ID = orderLine091ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine091ID)
@@ -7514,14 +7533,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine092Repository : Repository<OrderLine092>
     {
-        public OrderLine092Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine092Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine092 GetByKey(int orderLine092ID)
         {
-            return this.Query().Where("[OrderLine092ID] = @0", orderLine092ID).GetSingle();  
+            return this.Query().Where(new { OrderLine092ID = orderLine092ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine092ID)
@@ -7533,14 +7552,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine093Repository : Repository<OrderLine093>
     {
-        public OrderLine093Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine093Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine093 GetByKey(int orderLine093ID)
         {
-            return this.Query().Where("[OrderLine093ID] = @0", orderLine093ID).GetSingle();  
+            return this.Query().Where(new { OrderLine093ID = orderLine093ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine093ID)
@@ -7552,14 +7571,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine094Repository : Repository<OrderLine094>
     {
-        public OrderLine094Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine094Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine094 GetByKey(int orderLine094ID)
         {
-            return this.Query().Where("[OrderLine094ID] = @0", orderLine094ID).GetSingle();  
+            return this.Query().Where(new { OrderLine094ID = orderLine094ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine094ID)
@@ -7571,14 +7590,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine095Repository : Repository<OrderLine095>
     {
-        public OrderLine095Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine095Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine095 GetByKey(int orderLine095ID)
         {
-            return this.Query().Where("[OrderLine095ID] = @0", orderLine095ID).GetSingle();  
+            return this.Query().Where(new { OrderLine095ID = orderLine095ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine095ID)
@@ -7590,14 +7609,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine096Repository : Repository<OrderLine096>
     {
-        public OrderLine096Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine096Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine096 GetByKey(int orderLine096ID)
         {
-            return this.Query().Where("[OrderLine096ID] = @0", orderLine096ID).GetSingle();  
+            return this.Query().Where(new { OrderLine096ID = orderLine096ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine096ID)
@@ -7609,14 +7628,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine097Repository : Repository<OrderLine097>
     {
-        public OrderLine097Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine097Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine097 GetByKey(int orderLine097ID)
         {
-            return this.Query().Where("[OrderLine097ID] = @0", orderLine097ID).GetSingle();  
+            return this.Query().Where(new { OrderLine097ID = orderLine097ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine097ID)
@@ -7628,14 +7647,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine098Repository : Repository<OrderLine098>
     {
-        public OrderLine098Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine098Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine098 GetByKey(int orderLine098ID)
         {
-            return this.Query().Where("[OrderLine098ID] = @0", orderLine098ID).GetSingle();  
+            return this.Query().Where(new { OrderLine098ID = orderLine098ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine098ID)
@@ -7647,14 +7666,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine099Repository : Repository<OrderLine099>
     {
-        public OrderLine099Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine099Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine099 GetByKey(int orderLine099ID)
         {
-            return this.Query().Where("[OrderLine099ID] = @0", orderLine099ID).GetSingle();  
+            return this.Query().Where(new { OrderLine099ID = orderLine099ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine099ID)
@@ -7666,14 +7685,14 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine100Repository : Repository<OrderLine100>
     {
-        public OrderLine100Repository(InsulaDatabaseContext context)
-            : base(context)
+        public OrderLine100Repository(InsulaDatabase database)
+            : base(database)
         {
         }
         
         public OrderLine100 GetByKey(int orderLine100ID)
         {
-            return this.Query().Where("[OrderLine100ID] = @0", orderLine100ID).GetSingle();  
+            return this.Query().Where(new { OrderLine100ID = orderLine100ID }).GetSingle();  
         }
         
         public void DeleteByKey(int orderLine100ID)

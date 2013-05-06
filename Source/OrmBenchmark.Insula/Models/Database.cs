@@ -7,15 +7,10 @@ using Insula.Data.Orm;
 
 namespace OrmBenchmark.Insula
 {
-    public partial class InsulaDatabaseContext : DatabaseContext
+    public partial class InsulaDatabase : Database
     {
-        public InsulaDatabaseContext()
-            : base(System.Configuration.ConfigurationManager.ConnectionStrings["OrmBenchmark"].ConnectionString)
-        {
-        }
-
-        public InsulaDatabaseContext(bool keepConnectionOpen)
-            : base(System.Configuration.ConfigurationManager.ConnectionStrings["OrmBenchmark"].ConnectionString, keepConnectionOpen)
+        public InsulaDatabase()
+            : base(DatabaseEngine.SqlServer, System.Configuration.ConfigurationManager.ConnectionStrings["OrmBenchmark"].ConnectionString)
         {
         }
 
@@ -1230,6 +1225,18 @@ namespace OrmBenchmark.Insula
                     _customer100Repository = new Customer100Repository(this);
     
                 return _customer100Repository;
+            }
+        }
+
+        private DiscountRepository _discountRepository;
+        public DiscountRepository DiscountRepository
+        {
+            get
+            {
+                if (_discountRepository == null)
+                    _discountRepository = new DiscountRepository(this);
+    
+                return _discountRepository;
             }
         }
 
