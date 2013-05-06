@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Insula.CodeGeneration">
+      <HintPath>..\Libraries\Insula.CodeGeneration.dll</HintPath>
+    </Reference>
     <Reference Include="Insula.Common">
       <HintPath>..\Libraries\Insula.Common.dll</HintPath>
     </Reference>

@@ -70,11 +70,11 @@ namespace OrmBenchmark
             Console.WriteLine("Insula.Data");
             Console.WriteLine("------------------------------------------------------------");
 
-            OrmBenchmark.Insula.InsulaDatabaseContext db = null;
+            OrmBenchmark.Insula.InsulaDatabase db = null;
 
             ExecuteAction("Instantiating context", () =>
             {
-                db = new OrmBenchmark.Insula.InsulaDatabaseContext();
+                db = new OrmBenchmark.Insula.InsulaDatabase();
             });
 
             ExecuteAction("First query", () =>
@@ -115,8 +115,6 @@ namespace OrmBenchmark
                     c.Name = DateTime.Now.ToString();
                     db.CustomerRepository.Update(c);
                 }
-
-                db.Commit();
             });
 
             db.Dispose();
