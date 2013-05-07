@@ -9,8 +9,8 @@ namespace OrmBenchmark.Insula
 {
     public partial class CustomerRepository : Repository<Customer>
     {
-        public CustomerRepository(InsulaDatabase database)
-            : base(database)
+        public CustomerRepository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -28,8 +28,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer001Repository : Repository<Customer001>
     {
-        public Customer001Repository(InsulaDatabase database)
-            : base(database)
+        public Customer001Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -47,8 +47,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer002Repository : Repository<Customer002>
     {
-        public Customer002Repository(InsulaDatabase database)
-            : base(database)
+        public Customer002Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -66,8 +66,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer003Repository : Repository<Customer003>
     {
-        public Customer003Repository(InsulaDatabase database)
-            : base(database)
+        public Customer003Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -85,8 +85,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer004Repository : Repository<Customer004>
     {
-        public Customer004Repository(InsulaDatabase database)
-            : base(database)
+        public Customer004Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -104,8 +104,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer005Repository : Repository<Customer005>
     {
-        public Customer005Repository(InsulaDatabase database)
-            : base(database)
+        public Customer005Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -123,8 +123,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer006Repository : Repository<Customer006>
     {
-        public Customer006Repository(InsulaDatabase database)
-            : base(database)
+        public Customer006Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -142,8 +142,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer007Repository : Repository<Customer007>
     {
-        public Customer007Repository(InsulaDatabase database)
-            : base(database)
+        public Customer007Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -161,8 +161,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer008Repository : Repository<Customer008>
     {
-        public Customer008Repository(InsulaDatabase database)
-            : base(database)
+        public Customer008Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -180,8 +180,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer009Repository : Repository<Customer009>
     {
-        public Customer009Repository(InsulaDatabase database)
-            : base(database)
+        public Customer009Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -199,8 +199,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer010Repository : Repository<Customer010>
     {
-        public Customer010Repository(InsulaDatabase database)
-            : base(database)
+        public Customer010Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -218,8 +218,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer011Repository : Repository<Customer011>
     {
-        public Customer011Repository(InsulaDatabase database)
-            : base(database)
+        public Customer011Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -237,8 +237,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer012Repository : Repository<Customer012>
     {
-        public Customer012Repository(InsulaDatabase database)
-            : base(database)
+        public Customer012Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -256,8 +256,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer013Repository : Repository<Customer013>
     {
-        public Customer013Repository(InsulaDatabase database)
-            : base(database)
+        public Customer013Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -275,8 +275,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer014Repository : Repository<Customer014>
     {
-        public Customer014Repository(InsulaDatabase database)
-            : base(database)
+        public Customer014Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -294,8 +294,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer015Repository : Repository<Customer015>
     {
-        public Customer015Repository(InsulaDatabase database)
-            : base(database)
+        public Customer015Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -313,8 +313,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer016Repository : Repository<Customer016>
     {
-        public Customer016Repository(InsulaDatabase database)
-            : base(database)
+        public Customer016Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -332,8 +332,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer017Repository : Repository<Customer017>
     {
-        public Customer017Repository(InsulaDatabase database)
-            : base(database)
+        public Customer017Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -351,8 +351,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer018Repository : Repository<Customer018>
     {
-        public Customer018Repository(InsulaDatabase database)
-            : base(database)
+        public Customer018Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -370,8 +370,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer019Repository : Repository<Customer019>
     {
-        public Customer019Repository(InsulaDatabase database)
-            : base(database)
+        public Customer019Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -389,8 +389,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer020Repository : Repository<Customer020>
     {
-        public Customer020Repository(InsulaDatabase database)
-            : base(database)
+        public Customer020Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -408,8 +408,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer021Repository : Repository<Customer021>
     {
-        public Customer021Repository(InsulaDatabase database)
-            : base(database)
+        public Customer021Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -427,8 +427,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer022Repository : Repository<Customer022>
     {
-        public Customer022Repository(InsulaDatabase database)
-            : base(database)
+        public Customer022Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -446,8 +446,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer023Repository : Repository<Customer023>
     {
-        public Customer023Repository(InsulaDatabase database)
-            : base(database)
+        public Customer023Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -465,8 +465,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer024Repository : Repository<Customer024>
     {
-        public Customer024Repository(InsulaDatabase database)
-            : base(database)
+        public Customer024Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -484,8 +484,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer025Repository : Repository<Customer025>
     {
-        public Customer025Repository(InsulaDatabase database)
-            : base(database)
+        public Customer025Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -503,8 +503,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer026Repository : Repository<Customer026>
     {
-        public Customer026Repository(InsulaDatabase database)
-            : base(database)
+        public Customer026Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -522,8 +522,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer027Repository : Repository<Customer027>
     {
-        public Customer027Repository(InsulaDatabase database)
-            : base(database)
+        public Customer027Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -541,8 +541,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer028Repository : Repository<Customer028>
     {
-        public Customer028Repository(InsulaDatabase database)
-            : base(database)
+        public Customer028Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -560,8 +560,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer029Repository : Repository<Customer029>
     {
-        public Customer029Repository(InsulaDatabase database)
-            : base(database)
+        public Customer029Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -579,8 +579,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer030Repository : Repository<Customer030>
     {
-        public Customer030Repository(InsulaDatabase database)
-            : base(database)
+        public Customer030Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -598,8 +598,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer031Repository : Repository<Customer031>
     {
-        public Customer031Repository(InsulaDatabase database)
-            : base(database)
+        public Customer031Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -617,8 +617,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer032Repository : Repository<Customer032>
     {
-        public Customer032Repository(InsulaDatabase database)
-            : base(database)
+        public Customer032Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -636,8 +636,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer033Repository : Repository<Customer033>
     {
-        public Customer033Repository(InsulaDatabase database)
-            : base(database)
+        public Customer033Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -655,8 +655,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer034Repository : Repository<Customer034>
     {
-        public Customer034Repository(InsulaDatabase database)
-            : base(database)
+        public Customer034Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -674,8 +674,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer035Repository : Repository<Customer035>
     {
-        public Customer035Repository(InsulaDatabase database)
-            : base(database)
+        public Customer035Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -693,8 +693,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer036Repository : Repository<Customer036>
     {
-        public Customer036Repository(InsulaDatabase database)
-            : base(database)
+        public Customer036Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -712,8 +712,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer037Repository : Repository<Customer037>
     {
-        public Customer037Repository(InsulaDatabase database)
-            : base(database)
+        public Customer037Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -731,8 +731,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer038Repository : Repository<Customer038>
     {
-        public Customer038Repository(InsulaDatabase database)
-            : base(database)
+        public Customer038Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -750,8 +750,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer039Repository : Repository<Customer039>
     {
-        public Customer039Repository(InsulaDatabase database)
-            : base(database)
+        public Customer039Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -769,8 +769,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer040Repository : Repository<Customer040>
     {
-        public Customer040Repository(InsulaDatabase database)
-            : base(database)
+        public Customer040Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -788,8 +788,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer041Repository : Repository<Customer041>
     {
-        public Customer041Repository(InsulaDatabase database)
-            : base(database)
+        public Customer041Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -807,8 +807,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer042Repository : Repository<Customer042>
     {
-        public Customer042Repository(InsulaDatabase database)
-            : base(database)
+        public Customer042Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -826,8 +826,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer043Repository : Repository<Customer043>
     {
-        public Customer043Repository(InsulaDatabase database)
-            : base(database)
+        public Customer043Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -845,8 +845,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer044Repository : Repository<Customer044>
     {
-        public Customer044Repository(InsulaDatabase database)
-            : base(database)
+        public Customer044Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -864,8 +864,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer045Repository : Repository<Customer045>
     {
-        public Customer045Repository(InsulaDatabase database)
-            : base(database)
+        public Customer045Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -883,8 +883,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer046Repository : Repository<Customer046>
     {
-        public Customer046Repository(InsulaDatabase database)
-            : base(database)
+        public Customer046Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -902,8 +902,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer047Repository : Repository<Customer047>
     {
-        public Customer047Repository(InsulaDatabase database)
-            : base(database)
+        public Customer047Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -921,8 +921,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer048Repository : Repository<Customer048>
     {
-        public Customer048Repository(InsulaDatabase database)
-            : base(database)
+        public Customer048Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -940,8 +940,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer049Repository : Repository<Customer049>
     {
-        public Customer049Repository(InsulaDatabase database)
-            : base(database)
+        public Customer049Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -959,8 +959,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer050Repository : Repository<Customer050>
     {
-        public Customer050Repository(InsulaDatabase database)
-            : base(database)
+        public Customer050Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -978,8 +978,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer051Repository : Repository<Customer051>
     {
-        public Customer051Repository(InsulaDatabase database)
-            : base(database)
+        public Customer051Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -997,8 +997,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer052Repository : Repository<Customer052>
     {
-        public Customer052Repository(InsulaDatabase database)
-            : base(database)
+        public Customer052Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1016,8 +1016,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer053Repository : Repository<Customer053>
     {
-        public Customer053Repository(InsulaDatabase database)
-            : base(database)
+        public Customer053Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1035,8 +1035,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer054Repository : Repository<Customer054>
     {
-        public Customer054Repository(InsulaDatabase database)
-            : base(database)
+        public Customer054Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1054,8 +1054,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer055Repository : Repository<Customer055>
     {
-        public Customer055Repository(InsulaDatabase database)
-            : base(database)
+        public Customer055Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1073,8 +1073,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer056Repository : Repository<Customer056>
     {
-        public Customer056Repository(InsulaDatabase database)
-            : base(database)
+        public Customer056Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1092,8 +1092,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer057Repository : Repository<Customer057>
     {
-        public Customer057Repository(InsulaDatabase database)
-            : base(database)
+        public Customer057Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1111,8 +1111,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer058Repository : Repository<Customer058>
     {
-        public Customer058Repository(InsulaDatabase database)
-            : base(database)
+        public Customer058Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1130,8 +1130,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer059Repository : Repository<Customer059>
     {
-        public Customer059Repository(InsulaDatabase database)
-            : base(database)
+        public Customer059Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1149,8 +1149,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer060Repository : Repository<Customer060>
     {
-        public Customer060Repository(InsulaDatabase database)
-            : base(database)
+        public Customer060Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1168,8 +1168,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer061Repository : Repository<Customer061>
     {
-        public Customer061Repository(InsulaDatabase database)
-            : base(database)
+        public Customer061Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1187,8 +1187,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer062Repository : Repository<Customer062>
     {
-        public Customer062Repository(InsulaDatabase database)
-            : base(database)
+        public Customer062Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1206,8 +1206,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer063Repository : Repository<Customer063>
     {
-        public Customer063Repository(InsulaDatabase database)
-            : base(database)
+        public Customer063Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1225,8 +1225,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer064Repository : Repository<Customer064>
     {
-        public Customer064Repository(InsulaDatabase database)
-            : base(database)
+        public Customer064Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1244,8 +1244,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer065Repository : Repository<Customer065>
     {
-        public Customer065Repository(InsulaDatabase database)
-            : base(database)
+        public Customer065Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1263,8 +1263,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer066Repository : Repository<Customer066>
     {
-        public Customer066Repository(InsulaDatabase database)
-            : base(database)
+        public Customer066Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1282,8 +1282,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer067Repository : Repository<Customer067>
     {
-        public Customer067Repository(InsulaDatabase database)
-            : base(database)
+        public Customer067Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1301,8 +1301,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer068Repository : Repository<Customer068>
     {
-        public Customer068Repository(InsulaDatabase database)
-            : base(database)
+        public Customer068Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1320,8 +1320,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer069Repository : Repository<Customer069>
     {
-        public Customer069Repository(InsulaDatabase database)
-            : base(database)
+        public Customer069Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1339,8 +1339,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer070Repository : Repository<Customer070>
     {
-        public Customer070Repository(InsulaDatabase database)
-            : base(database)
+        public Customer070Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1358,8 +1358,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer071Repository : Repository<Customer071>
     {
-        public Customer071Repository(InsulaDatabase database)
-            : base(database)
+        public Customer071Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1377,8 +1377,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer072Repository : Repository<Customer072>
     {
-        public Customer072Repository(InsulaDatabase database)
-            : base(database)
+        public Customer072Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1396,8 +1396,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer073Repository : Repository<Customer073>
     {
-        public Customer073Repository(InsulaDatabase database)
-            : base(database)
+        public Customer073Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1415,8 +1415,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer074Repository : Repository<Customer074>
     {
-        public Customer074Repository(InsulaDatabase database)
-            : base(database)
+        public Customer074Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1434,8 +1434,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer075Repository : Repository<Customer075>
     {
-        public Customer075Repository(InsulaDatabase database)
-            : base(database)
+        public Customer075Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1453,8 +1453,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer076Repository : Repository<Customer076>
     {
-        public Customer076Repository(InsulaDatabase database)
-            : base(database)
+        public Customer076Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1472,8 +1472,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer077Repository : Repository<Customer077>
     {
-        public Customer077Repository(InsulaDatabase database)
-            : base(database)
+        public Customer077Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1491,8 +1491,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer078Repository : Repository<Customer078>
     {
-        public Customer078Repository(InsulaDatabase database)
-            : base(database)
+        public Customer078Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1510,8 +1510,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer079Repository : Repository<Customer079>
     {
-        public Customer079Repository(InsulaDatabase database)
-            : base(database)
+        public Customer079Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1529,8 +1529,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer080Repository : Repository<Customer080>
     {
-        public Customer080Repository(InsulaDatabase database)
-            : base(database)
+        public Customer080Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1548,8 +1548,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer081Repository : Repository<Customer081>
     {
-        public Customer081Repository(InsulaDatabase database)
-            : base(database)
+        public Customer081Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1567,8 +1567,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer082Repository : Repository<Customer082>
     {
-        public Customer082Repository(InsulaDatabase database)
-            : base(database)
+        public Customer082Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1586,8 +1586,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer083Repository : Repository<Customer083>
     {
-        public Customer083Repository(InsulaDatabase database)
-            : base(database)
+        public Customer083Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1605,8 +1605,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer084Repository : Repository<Customer084>
     {
-        public Customer084Repository(InsulaDatabase database)
-            : base(database)
+        public Customer084Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1624,8 +1624,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer085Repository : Repository<Customer085>
     {
-        public Customer085Repository(InsulaDatabase database)
-            : base(database)
+        public Customer085Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1643,8 +1643,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer086Repository : Repository<Customer086>
     {
-        public Customer086Repository(InsulaDatabase database)
-            : base(database)
+        public Customer086Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1662,8 +1662,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer087Repository : Repository<Customer087>
     {
-        public Customer087Repository(InsulaDatabase database)
-            : base(database)
+        public Customer087Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1681,8 +1681,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer088Repository : Repository<Customer088>
     {
-        public Customer088Repository(InsulaDatabase database)
-            : base(database)
+        public Customer088Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1700,8 +1700,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer089Repository : Repository<Customer089>
     {
-        public Customer089Repository(InsulaDatabase database)
-            : base(database)
+        public Customer089Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1719,8 +1719,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer090Repository : Repository<Customer090>
     {
-        public Customer090Repository(InsulaDatabase database)
-            : base(database)
+        public Customer090Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1738,8 +1738,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer091Repository : Repository<Customer091>
     {
-        public Customer091Repository(InsulaDatabase database)
-            : base(database)
+        public Customer091Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1757,8 +1757,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer092Repository : Repository<Customer092>
     {
-        public Customer092Repository(InsulaDatabase database)
-            : base(database)
+        public Customer092Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1776,8 +1776,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer093Repository : Repository<Customer093>
     {
-        public Customer093Repository(InsulaDatabase database)
-            : base(database)
+        public Customer093Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1795,8 +1795,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer094Repository : Repository<Customer094>
     {
-        public Customer094Repository(InsulaDatabase database)
-            : base(database)
+        public Customer094Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1814,8 +1814,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer095Repository : Repository<Customer095>
     {
-        public Customer095Repository(InsulaDatabase database)
-            : base(database)
+        public Customer095Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1833,8 +1833,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer096Repository : Repository<Customer096>
     {
-        public Customer096Repository(InsulaDatabase database)
-            : base(database)
+        public Customer096Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1852,8 +1852,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer097Repository : Repository<Customer097>
     {
-        public Customer097Repository(InsulaDatabase database)
-            : base(database)
+        public Customer097Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1871,8 +1871,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer098Repository : Repository<Customer098>
     {
-        public Customer098Repository(InsulaDatabase database)
-            : base(database)
+        public Customer098Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1890,8 +1890,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer099Repository : Repository<Customer099>
     {
-        public Customer099Repository(InsulaDatabase database)
-            : base(database)
+        public Customer099Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1909,8 +1909,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Customer100Repository : Repository<Customer100>
     {
-        public Customer100Repository(InsulaDatabase database)
-            : base(database)
+        public Customer100Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1928,8 +1928,8 @@ namespace OrmBenchmark.Insula
 
     public partial class DiscountRepository : Repository<Discount>
     {
-        public DiscountRepository(InsulaDatabase database)
-            : base(database)
+        public DiscountRepository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1947,8 +1947,8 @@ namespace OrmBenchmark.Insula
 
     public partial class ItemRepository : Repository<Item>
     {
-        public ItemRepository(InsulaDatabase database)
-            : base(database)
+        public ItemRepository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1966,8 +1966,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item001Repository : Repository<Item001>
     {
-        public Item001Repository(InsulaDatabase database)
-            : base(database)
+        public Item001Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -1985,8 +1985,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item002Repository : Repository<Item002>
     {
-        public Item002Repository(InsulaDatabase database)
-            : base(database)
+        public Item002Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2004,8 +2004,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item003Repository : Repository<Item003>
     {
-        public Item003Repository(InsulaDatabase database)
-            : base(database)
+        public Item003Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2023,8 +2023,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item004Repository : Repository<Item004>
     {
-        public Item004Repository(InsulaDatabase database)
-            : base(database)
+        public Item004Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2042,8 +2042,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item005Repository : Repository<Item005>
     {
-        public Item005Repository(InsulaDatabase database)
-            : base(database)
+        public Item005Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2061,8 +2061,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item006Repository : Repository<Item006>
     {
-        public Item006Repository(InsulaDatabase database)
-            : base(database)
+        public Item006Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2080,8 +2080,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item007Repository : Repository<Item007>
     {
-        public Item007Repository(InsulaDatabase database)
-            : base(database)
+        public Item007Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2099,8 +2099,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item008Repository : Repository<Item008>
     {
-        public Item008Repository(InsulaDatabase database)
-            : base(database)
+        public Item008Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2118,8 +2118,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item009Repository : Repository<Item009>
     {
-        public Item009Repository(InsulaDatabase database)
-            : base(database)
+        public Item009Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2137,8 +2137,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item010Repository : Repository<Item010>
     {
-        public Item010Repository(InsulaDatabase database)
-            : base(database)
+        public Item010Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2156,8 +2156,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item011Repository : Repository<Item011>
     {
-        public Item011Repository(InsulaDatabase database)
-            : base(database)
+        public Item011Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2175,8 +2175,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item012Repository : Repository<Item012>
     {
-        public Item012Repository(InsulaDatabase database)
-            : base(database)
+        public Item012Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2194,8 +2194,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item013Repository : Repository<Item013>
     {
-        public Item013Repository(InsulaDatabase database)
-            : base(database)
+        public Item013Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2213,8 +2213,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item014Repository : Repository<Item014>
     {
-        public Item014Repository(InsulaDatabase database)
-            : base(database)
+        public Item014Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2232,8 +2232,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item015Repository : Repository<Item015>
     {
-        public Item015Repository(InsulaDatabase database)
-            : base(database)
+        public Item015Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2251,8 +2251,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item016Repository : Repository<Item016>
     {
-        public Item016Repository(InsulaDatabase database)
-            : base(database)
+        public Item016Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2270,8 +2270,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item017Repository : Repository<Item017>
     {
-        public Item017Repository(InsulaDatabase database)
-            : base(database)
+        public Item017Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2289,8 +2289,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item018Repository : Repository<Item018>
     {
-        public Item018Repository(InsulaDatabase database)
-            : base(database)
+        public Item018Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2308,8 +2308,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item019Repository : Repository<Item019>
     {
-        public Item019Repository(InsulaDatabase database)
-            : base(database)
+        public Item019Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2327,8 +2327,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item020Repository : Repository<Item020>
     {
-        public Item020Repository(InsulaDatabase database)
-            : base(database)
+        public Item020Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2346,8 +2346,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item021Repository : Repository<Item021>
     {
-        public Item021Repository(InsulaDatabase database)
-            : base(database)
+        public Item021Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2365,8 +2365,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item022Repository : Repository<Item022>
     {
-        public Item022Repository(InsulaDatabase database)
-            : base(database)
+        public Item022Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2384,8 +2384,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item023Repository : Repository<Item023>
     {
-        public Item023Repository(InsulaDatabase database)
-            : base(database)
+        public Item023Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2403,8 +2403,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item024Repository : Repository<Item024>
     {
-        public Item024Repository(InsulaDatabase database)
-            : base(database)
+        public Item024Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2422,8 +2422,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item025Repository : Repository<Item025>
     {
-        public Item025Repository(InsulaDatabase database)
-            : base(database)
+        public Item025Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2441,8 +2441,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item026Repository : Repository<Item026>
     {
-        public Item026Repository(InsulaDatabase database)
-            : base(database)
+        public Item026Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2460,8 +2460,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item027Repository : Repository<Item027>
     {
-        public Item027Repository(InsulaDatabase database)
-            : base(database)
+        public Item027Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2479,8 +2479,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item028Repository : Repository<Item028>
     {
-        public Item028Repository(InsulaDatabase database)
-            : base(database)
+        public Item028Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2498,8 +2498,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item029Repository : Repository<Item029>
     {
-        public Item029Repository(InsulaDatabase database)
-            : base(database)
+        public Item029Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2517,8 +2517,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item030Repository : Repository<Item030>
     {
-        public Item030Repository(InsulaDatabase database)
-            : base(database)
+        public Item030Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2536,8 +2536,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item031Repository : Repository<Item031>
     {
-        public Item031Repository(InsulaDatabase database)
-            : base(database)
+        public Item031Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2555,8 +2555,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item032Repository : Repository<Item032>
     {
-        public Item032Repository(InsulaDatabase database)
-            : base(database)
+        public Item032Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2574,8 +2574,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item033Repository : Repository<Item033>
     {
-        public Item033Repository(InsulaDatabase database)
-            : base(database)
+        public Item033Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2593,8 +2593,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item034Repository : Repository<Item034>
     {
-        public Item034Repository(InsulaDatabase database)
-            : base(database)
+        public Item034Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2612,8 +2612,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item035Repository : Repository<Item035>
     {
-        public Item035Repository(InsulaDatabase database)
-            : base(database)
+        public Item035Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2631,8 +2631,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item036Repository : Repository<Item036>
     {
-        public Item036Repository(InsulaDatabase database)
-            : base(database)
+        public Item036Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2650,8 +2650,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item037Repository : Repository<Item037>
     {
-        public Item037Repository(InsulaDatabase database)
-            : base(database)
+        public Item037Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2669,8 +2669,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item038Repository : Repository<Item038>
     {
-        public Item038Repository(InsulaDatabase database)
-            : base(database)
+        public Item038Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2688,8 +2688,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item039Repository : Repository<Item039>
     {
-        public Item039Repository(InsulaDatabase database)
-            : base(database)
+        public Item039Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2707,8 +2707,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item040Repository : Repository<Item040>
     {
-        public Item040Repository(InsulaDatabase database)
-            : base(database)
+        public Item040Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2726,8 +2726,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item041Repository : Repository<Item041>
     {
-        public Item041Repository(InsulaDatabase database)
-            : base(database)
+        public Item041Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2745,8 +2745,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item042Repository : Repository<Item042>
     {
-        public Item042Repository(InsulaDatabase database)
-            : base(database)
+        public Item042Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2764,8 +2764,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item043Repository : Repository<Item043>
     {
-        public Item043Repository(InsulaDatabase database)
-            : base(database)
+        public Item043Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2783,8 +2783,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item044Repository : Repository<Item044>
     {
-        public Item044Repository(InsulaDatabase database)
-            : base(database)
+        public Item044Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2802,8 +2802,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item045Repository : Repository<Item045>
     {
-        public Item045Repository(InsulaDatabase database)
-            : base(database)
+        public Item045Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2821,8 +2821,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item046Repository : Repository<Item046>
     {
-        public Item046Repository(InsulaDatabase database)
-            : base(database)
+        public Item046Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2840,8 +2840,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item047Repository : Repository<Item047>
     {
-        public Item047Repository(InsulaDatabase database)
-            : base(database)
+        public Item047Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2859,8 +2859,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item048Repository : Repository<Item048>
     {
-        public Item048Repository(InsulaDatabase database)
-            : base(database)
+        public Item048Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2878,8 +2878,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item049Repository : Repository<Item049>
     {
-        public Item049Repository(InsulaDatabase database)
-            : base(database)
+        public Item049Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2897,8 +2897,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item050Repository : Repository<Item050>
     {
-        public Item050Repository(InsulaDatabase database)
-            : base(database)
+        public Item050Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2916,8 +2916,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item051Repository : Repository<Item051>
     {
-        public Item051Repository(InsulaDatabase database)
-            : base(database)
+        public Item051Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2935,8 +2935,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item052Repository : Repository<Item052>
     {
-        public Item052Repository(InsulaDatabase database)
-            : base(database)
+        public Item052Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2954,8 +2954,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item053Repository : Repository<Item053>
     {
-        public Item053Repository(InsulaDatabase database)
-            : base(database)
+        public Item053Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2973,8 +2973,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item054Repository : Repository<Item054>
     {
-        public Item054Repository(InsulaDatabase database)
-            : base(database)
+        public Item054Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -2992,8 +2992,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item055Repository : Repository<Item055>
     {
-        public Item055Repository(InsulaDatabase database)
-            : base(database)
+        public Item055Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3011,8 +3011,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item056Repository : Repository<Item056>
     {
-        public Item056Repository(InsulaDatabase database)
-            : base(database)
+        public Item056Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3030,8 +3030,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item057Repository : Repository<Item057>
     {
-        public Item057Repository(InsulaDatabase database)
-            : base(database)
+        public Item057Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3049,8 +3049,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item058Repository : Repository<Item058>
     {
-        public Item058Repository(InsulaDatabase database)
-            : base(database)
+        public Item058Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3068,8 +3068,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item059Repository : Repository<Item059>
     {
-        public Item059Repository(InsulaDatabase database)
-            : base(database)
+        public Item059Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3087,8 +3087,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item060Repository : Repository<Item060>
     {
-        public Item060Repository(InsulaDatabase database)
-            : base(database)
+        public Item060Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3106,8 +3106,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item061Repository : Repository<Item061>
     {
-        public Item061Repository(InsulaDatabase database)
-            : base(database)
+        public Item061Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3125,8 +3125,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item062Repository : Repository<Item062>
     {
-        public Item062Repository(InsulaDatabase database)
-            : base(database)
+        public Item062Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3144,8 +3144,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item063Repository : Repository<Item063>
     {
-        public Item063Repository(InsulaDatabase database)
-            : base(database)
+        public Item063Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3163,8 +3163,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item064Repository : Repository<Item064>
     {
-        public Item064Repository(InsulaDatabase database)
-            : base(database)
+        public Item064Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3182,8 +3182,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item065Repository : Repository<Item065>
     {
-        public Item065Repository(InsulaDatabase database)
-            : base(database)
+        public Item065Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3201,8 +3201,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item066Repository : Repository<Item066>
     {
-        public Item066Repository(InsulaDatabase database)
-            : base(database)
+        public Item066Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3220,8 +3220,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item067Repository : Repository<Item067>
     {
-        public Item067Repository(InsulaDatabase database)
-            : base(database)
+        public Item067Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3239,8 +3239,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item068Repository : Repository<Item068>
     {
-        public Item068Repository(InsulaDatabase database)
-            : base(database)
+        public Item068Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3258,8 +3258,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item069Repository : Repository<Item069>
     {
-        public Item069Repository(InsulaDatabase database)
-            : base(database)
+        public Item069Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3277,8 +3277,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item070Repository : Repository<Item070>
     {
-        public Item070Repository(InsulaDatabase database)
-            : base(database)
+        public Item070Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3296,8 +3296,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item071Repository : Repository<Item071>
     {
-        public Item071Repository(InsulaDatabase database)
-            : base(database)
+        public Item071Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3315,8 +3315,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item072Repository : Repository<Item072>
     {
-        public Item072Repository(InsulaDatabase database)
-            : base(database)
+        public Item072Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3334,8 +3334,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item073Repository : Repository<Item073>
     {
-        public Item073Repository(InsulaDatabase database)
-            : base(database)
+        public Item073Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3353,8 +3353,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item074Repository : Repository<Item074>
     {
-        public Item074Repository(InsulaDatabase database)
-            : base(database)
+        public Item074Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3372,8 +3372,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item075Repository : Repository<Item075>
     {
-        public Item075Repository(InsulaDatabase database)
-            : base(database)
+        public Item075Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3391,8 +3391,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item076Repository : Repository<Item076>
     {
-        public Item076Repository(InsulaDatabase database)
-            : base(database)
+        public Item076Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3410,8 +3410,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item077Repository : Repository<Item077>
     {
-        public Item077Repository(InsulaDatabase database)
-            : base(database)
+        public Item077Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3429,8 +3429,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item078Repository : Repository<Item078>
     {
-        public Item078Repository(InsulaDatabase database)
-            : base(database)
+        public Item078Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3448,8 +3448,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item079Repository : Repository<Item079>
     {
-        public Item079Repository(InsulaDatabase database)
-            : base(database)
+        public Item079Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3467,8 +3467,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item080Repository : Repository<Item080>
     {
-        public Item080Repository(InsulaDatabase database)
-            : base(database)
+        public Item080Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3486,8 +3486,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item081Repository : Repository<Item081>
     {
-        public Item081Repository(InsulaDatabase database)
-            : base(database)
+        public Item081Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3505,8 +3505,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item082Repository : Repository<Item082>
     {
-        public Item082Repository(InsulaDatabase database)
-            : base(database)
+        public Item082Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3524,8 +3524,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item083Repository : Repository<Item083>
     {
-        public Item083Repository(InsulaDatabase database)
-            : base(database)
+        public Item083Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3543,8 +3543,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item084Repository : Repository<Item084>
     {
-        public Item084Repository(InsulaDatabase database)
-            : base(database)
+        public Item084Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3562,8 +3562,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item085Repository : Repository<Item085>
     {
-        public Item085Repository(InsulaDatabase database)
-            : base(database)
+        public Item085Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3581,8 +3581,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item086Repository : Repository<Item086>
     {
-        public Item086Repository(InsulaDatabase database)
-            : base(database)
+        public Item086Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3600,8 +3600,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item087Repository : Repository<Item087>
     {
-        public Item087Repository(InsulaDatabase database)
-            : base(database)
+        public Item087Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3619,8 +3619,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item088Repository : Repository<Item088>
     {
-        public Item088Repository(InsulaDatabase database)
-            : base(database)
+        public Item088Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3638,8 +3638,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item089Repository : Repository<Item089>
     {
-        public Item089Repository(InsulaDatabase database)
-            : base(database)
+        public Item089Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3657,8 +3657,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item090Repository : Repository<Item090>
     {
-        public Item090Repository(InsulaDatabase database)
-            : base(database)
+        public Item090Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3676,8 +3676,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item091Repository : Repository<Item091>
     {
-        public Item091Repository(InsulaDatabase database)
-            : base(database)
+        public Item091Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3695,8 +3695,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item092Repository : Repository<Item092>
     {
-        public Item092Repository(InsulaDatabase database)
-            : base(database)
+        public Item092Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3714,8 +3714,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item093Repository : Repository<Item093>
     {
-        public Item093Repository(InsulaDatabase database)
-            : base(database)
+        public Item093Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3733,8 +3733,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item094Repository : Repository<Item094>
     {
-        public Item094Repository(InsulaDatabase database)
-            : base(database)
+        public Item094Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3752,8 +3752,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item095Repository : Repository<Item095>
     {
-        public Item095Repository(InsulaDatabase database)
-            : base(database)
+        public Item095Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3771,8 +3771,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item096Repository : Repository<Item096>
     {
-        public Item096Repository(InsulaDatabase database)
-            : base(database)
+        public Item096Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3790,8 +3790,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item097Repository : Repository<Item097>
     {
-        public Item097Repository(InsulaDatabase database)
-            : base(database)
+        public Item097Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3809,8 +3809,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item098Repository : Repository<Item098>
     {
-        public Item098Repository(InsulaDatabase database)
-            : base(database)
+        public Item098Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3828,8 +3828,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item099Repository : Repository<Item099>
     {
-        public Item099Repository(InsulaDatabase database)
-            : base(database)
+        public Item099Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3847,8 +3847,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Item100Repository : Repository<Item100>
     {
-        public Item100Repository(InsulaDatabase database)
-            : base(database)
+        public Item100Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3866,8 +3866,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderRepository : Repository<Order>
     {
-        public OrderRepository(InsulaDatabase database)
-            : base(database)
+        public OrderRepository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3885,8 +3885,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order001Repository : Repository<Order001>
     {
-        public Order001Repository(InsulaDatabase database)
-            : base(database)
+        public Order001Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3904,8 +3904,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order002Repository : Repository<Order002>
     {
-        public Order002Repository(InsulaDatabase database)
-            : base(database)
+        public Order002Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3923,8 +3923,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order003Repository : Repository<Order003>
     {
-        public Order003Repository(InsulaDatabase database)
-            : base(database)
+        public Order003Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3942,8 +3942,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order004Repository : Repository<Order004>
     {
-        public Order004Repository(InsulaDatabase database)
-            : base(database)
+        public Order004Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3961,8 +3961,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order005Repository : Repository<Order005>
     {
-        public Order005Repository(InsulaDatabase database)
-            : base(database)
+        public Order005Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3980,8 +3980,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order006Repository : Repository<Order006>
     {
-        public Order006Repository(InsulaDatabase database)
-            : base(database)
+        public Order006Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -3999,8 +3999,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order007Repository : Repository<Order007>
     {
-        public Order007Repository(InsulaDatabase database)
-            : base(database)
+        public Order007Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4018,8 +4018,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order008Repository : Repository<Order008>
     {
-        public Order008Repository(InsulaDatabase database)
-            : base(database)
+        public Order008Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4037,8 +4037,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order009Repository : Repository<Order009>
     {
-        public Order009Repository(InsulaDatabase database)
-            : base(database)
+        public Order009Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4056,8 +4056,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order010Repository : Repository<Order010>
     {
-        public Order010Repository(InsulaDatabase database)
-            : base(database)
+        public Order010Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4075,8 +4075,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order011Repository : Repository<Order011>
     {
-        public Order011Repository(InsulaDatabase database)
-            : base(database)
+        public Order011Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4094,8 +4094,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order012Repository : Repository<Order012>
     {
-        public Order012Repository(InsulaDatabase database)
-            : base(database)
+        public Order012Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4113,8 +4113,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order013Repository : Repository<Order013>
     {
-        public Order013Repository(InsulaDatabase database)
-            : base(database)
+        public Order013Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4132,8 +4132,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order014Repository : Repository<Order014>
     {
-        public Order014Repository(InsulaDatabase database)
-            : base(database)
+        public Order014Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4151,8 +4151,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order015Repository : Repository<Order015>
     {
-        public Order015Repository(InsulaDatabase database)
-            : base(database)
+        public Order015Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4170,8 +4170,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order016Repository : Repository<Order016>
     {
-        public Order016Repository(InsulaDatabase database)
-            : base(database)
+        public Order016Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4189,8 +4189,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order017Repository : Repository<Order017>
     {
-        public Order017Repository(InsulaDatabase database)
-            : base(database)
+        public Order017Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4208,8 +4208,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order018Repository : Repository<Order018>
     {
-        public Order018Repository(InsulaDatabase database)
-            : base(database)
+        public Order018Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4227,8 +4227,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order019Repository : Repository<Order019>
     {
-        public Order019Repository(InsulaDatabase database)
-            : base(database)
+        public Order019Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4246,8 +4246,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order020Repository : Repository<Order020>
     {
-        public Order020Repository(InsulaDatabase database)
-            : base(database)
+        public Order020Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4265,8 +4265,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order021Repository : Repository<Order021>
     {
-        public Order021Repository(InsulaDatabase database)
-            : base(database)
+        public Order021Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4284,8 +4284,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order022Repository : Repository<Order022>
     {
-        public Order022Repository(InsulaDatabase database)
-            : base(database)
+        public Order022Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4303,8 +4303,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order023Repository : Repository<Order023>
     {
-        public Order023Repository(InsulaDatabase database)
-            : base(database)
+        public Order023Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4322,8 +4322,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order024Repository : Repository<Order024>
     {
-        public Order024Repository(InsulaDatabase database)
-            : base(database)
+        public Order024Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4341,8 +4341,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order025Repository : Repository<Order025>
     {
-        public Order025Repository(InsulaDatabase database)
-            : base(database)
+        public Order025Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4360,8 +4360,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order026Repository : Repository<Order026>
     {
-        public Order026Repository(InsulaDatabase database)
-            : base(database)
+        public Order026Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4379,8 +4379,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order027Repository : Repository<Order027>
     {
-        public Order027Repository(InsulaDatabase database)
-            : base(database)
+        public Order027Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4398,8 +4398,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order028Repository : Repository<Order028>
     {
-        public Order028Repository(InsulaDatabase database)
-            : base(database)
+        public Order028Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4417,8 +4417,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order029Repository : Repository<Order029>
     {
-        public Order029Repository(InsulaDatabase database)
-            : base(database)
+        public Order029Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4436,8 +4436,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order030Repository : Repository<Order030>
     {
-        public Order030Repository(InsulaDatabase database)
-            : base(database)
+        public Order030Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4455,8 +4455,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order031Repository : Repository<Order031>
     {
-        public Order031Repository(InsulaDatabase database)
-            : base(database)
+        public Order031Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4474,8 +4474,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order032Repository : Repository<Order032>
     {
-        public Order032Repository(InsulaDatabase database)
-            : base(database)
+        public Order032Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4493,8 +4493,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order033Repository : Repository<Order033>
     {
-        public Order033Repository(InsulaDatabase database)
-            : base(database)
+        public Order033Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4512,8 +4512,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order034Repository : Repository<Order034>
     {
-        public Order034Repository(InsulaDatabase database)
-            : base(database)
+        public Order034Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4531,8 +4531,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order035Repository : Repository<Order035>
     {
-        public Order035Repository(InsulaDatabase database)
-            : base(database)
+        public Order035Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4550,8 +4550,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order036Repository : Repository<Order036>
     {
-        public Order036Repository(InsulaDatabase database)
-            : base(database)
+        public Order036Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4569,8 +4569,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order037Repository : Repository<Order037>
     {
-        public Order037Repository(InsulaDatabase database)
-            : base(database)
+        public Order037Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4588,8 +4588,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order038Repository : Repository<Order038>
     {
-        public Order038Repository(InsulaDatabase database)
-            : base(database)
+        public Order038Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4607,8 +4607,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order039Repository : Repository<Order039>
     {
-        public Order039Repository(InsulaDatabase database)
-            : base(database)
+        public Order039Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4626,8 +4626,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order040Repository : Repository<Order040>
     {
-        public Order040Repository(InsulaDatabase database)
-            : base(database)
+        public Order040Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4645,8 +4645,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order041Repository : Repository<Order041>
     {
-        public Order041Repository(InsulaDatabase database)
-            : base(database)
+        public Order041Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4664,8 +4664,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order042Repository : Repository<Order042>
     {
-        public Order042Repository(InsulaDatabase database)
-            : base(database)
+        public Order042Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4683,8 +4683,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order043Repository : Repository<Order043>
     {
-        public Order043Repository(InsulaDatabase database)
-            : base(database)
+        public Order043Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4702,8 +4702,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order044Repository : Repository<Order044>
     {
-        public Order044Repository(InsulaDatabase database)
-            : base(database)
+        public Order044Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4721,8 +4721,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order045Repository : Repository<Order045>
     {
-        public Order045Repository(InsulaDatabase database)
-            : base(database)
+        public Order045Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4740,8 +4740,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order046Repository : Repository<Order046>
     {
-        public Order046Repository(InsulaDatabase database)
-            : base(database)
+        public Order046Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4759,8 +4759,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order047Repository : Repository<Order047>
     {
-        public Order047Repository(InsulaDatabase database)
-            : base(database)
+        public Order047Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4778,8 +4778,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order048Repository : Repository<Order048>
     {
-        public Order048Repository(InsulaDatabase database)
-            : base(database)
+        public Order048Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4797,8 +4797,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order049Repository : Repository<Order049>
     {
-        public Order049Repository(InsulaDatabase database)
-            : base(database)
+        public Order049Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4816,8 +4816,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order050Repository : Repository<Order050>
     {
-        public Order050Repository(InsulaDatabase database)
-            : base(database)
+        public Order050Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4835,8 +4835,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order051Repository : Repository<Order051>
     {
-        public Order051Repository(InsulaDatabase database)
-            : base(database)
+        public Order051Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4854,8 +4854,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order052Repository : Repository<Order052>
     {
-        public Order052Repository(InsulaDatabase database)
-            : base(database)
+        public Order052Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4873,8 +4873,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order053Repository : Repository<Order053>
     {
-        public Order053Repository(InsulaDatabase database)
-            : base(database)
+        public Order053Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4892,8 +4892,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order054Repository : Repository<Order054>
     {
-        public Order054Repository(InsulaDatabase database)
-            : base(database)
+        public Order054Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4911,8 +4911,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order055Repository : Repository<Order055>
     {
-        public Order055Repository(InsulaDatabase database)
-            : base(database)
+        public Order055Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4930,8 +4930,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order056Repository : Repository<Order056>
     {
-        public Order056Repository(InsulaDatabase database)
-            : base(database)
+        public Order056Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4949,8 +4949,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order057Repository : Repository<Order057>
     {
-        public Order057Repository(InsulaDatabase database)
-            : base(database)
+        public Order057Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4968,8 +4968,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order058Repository : Repository<Order058>
     {
-        public Order058Repository(InsulaDatabase database)
-            : base(database)
+        public Order058Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -4987,8 +4987,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order059Repository : Repository<Order059>
     {
-        public Order059Repository(InsulaDatabase database)
-            : base(database)
+        public Order059Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5006,8 +5006,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order060Repository : Repository<Order060>
     {
-        public Order060Repository(InsulaDatabase database)
-            : base(database)
+        public Order060Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5025,8 +5025,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order061Repository : Repository<Order061>
     {
-        public Order061Repository(InsulaDatabase database)
-            : base(database)
+        public Order061Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5044,8 +5044,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order062Repository : Repository<Order062>
     {
-        public Order062Repository(InsulaDatabase database)
-            : base(database)
+        public Order062Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5063,8 +5063,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order063Repository : Repository<Order063>
     {
-        public Order063Repository(InsulaDatabase database)
-            : base(database)
+        public Order063Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5082,8 +5082,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order064Repository : Repository<Order064>
     {
-        public Order064Repository(InsulaDatabase database)
-            : base(database)
+        public Order064Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5101,8 +5101,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order065Repository : Repository<Order065>
     {
-        public Order065Repository(InsulaDatabase database)
-            : base(database)
+        public Order065Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5120,8 +5120,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order066Repository : Repository<Order066>
     {
-        public Order066Repository(InsulaDatabase database)
-            : base(database)
+        public Order066Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5139,8 +5139,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order067Repository : Repository<Order067>
     {
-        public Order067Repository(InsulaDatabase database)
-            : base(database)
+        public Order067Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5158,8 +5158,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order068Repository : Repository<Order068>
     {
-        public Order068Repository(InsulaDatabase database)
-            : base(database)
+        public Order068Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5177,8 +5177,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order069Repository : Repository<Order069>
     {
-        public Order069Repository(InsulaDatabase database)
-            : base(database)
+        public Order069Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5196,8 +5196,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order070Repository : Repository<Order070>
     {
-        public Order070Repository(InsulaDatabase database)
-            : base(database)
+        public Order070Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5215,8 +5215,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order071Repository : Repository<Order071>
     {
-        public Order071Repository(InsulaDatabase database)
-            : base(database)
+        public Order071Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5234,8 +5234,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order072Repository : Repository<Order072>
     {
-        public Order072Repository(InsulaDatabase database)
-            : base(database)
+        public Order072Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5253,8 +5253,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order073Repository : Repository<Order073>
     {
-        public Order073Repository(InsulaDatabase database)
-            : base(database)
+        public Order073Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5272,8 +5272,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order074Repository : Repository<Order074>
     {
-        public Order074Repository(InsulaDatabase database)
-            : base(database)
+        public Order074Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5291,8 +5291,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order075Repository : Repository<Order075>
     {
-        public Order075Repository(InsulaDatabase database)
-            : base(database)
+        public Order075Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5310,8 +5310,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order076Repository : Repository<Order076>
     {
-        public Order076Repository(InsulaDatabase database)
-            : base(database)
+        public Order076Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5329,8 +5329,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order077Repository : Repository<Order077>
     {
-        public Order077Repository(InsulaDatabase database)
-            : base(database)
+        public Order077Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5348,8 +5348,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order078Repository : Repository<Order078>
     {
-        public Order078Repository(InsulaDatabase database)
-            : base(database)
+        public Order078Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5367,8 +5367,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order079Repository : Repository<Order079>
     {
-        public Order079Repository(InsulaDatabase database)
-            : base(database)
+        public Order079Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5386,8 +5386,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order080Repository : Repository<Order080>
     {
-        public Order080Repository(InsulaDatabase database)
-            : base(database)
+        public Order080Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5405,8 +5405,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order081Repository : Repository<Order081>
     {
-        public Order081Repository(InsulaDatabase database)
-            : base(database)
+        public Order081Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5424,8 +5424,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order082Repository : Repository<Order082>
     {
-        public Order082Repository(InsulaDatabase database)
-            : base(database)
+        public Order082Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5443,8 +5443,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order083Repository : Repository<Order083>
     {
-        public Order083Repository(InsulaDatabase database)
-            : base(database)
+        public Order083Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5462,8 +5462,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order084Repository : Repository<Order084>
     {
-        public Order084Repository(InsulaDatabase database)
-            : base(database)
+        public Order084Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5481,8 +5481,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order085Repository : Repository<Order085>
     {
-        public Order085Repository(InsulaDatabase database)
-            : base(database)
+        public Order085Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5500,8 +5500,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order086Repository : Repository<Order086>
     {
-        public Order086Repository(InsulaDatabase database)
-            : base(database)
+        public Order086Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5519,8 +5519,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order087Repository : Repository<Order087>
     {
-        public Order087Repository(InsulaDatabase database)
-            : base(database)
+        public Order087Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5538,8 +5538,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order088Repository : Repository<Order088>
     {
-        public Order088Repository(InsulaDatabase database)
-            : base(database)
+        public Order088Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5557,8 +5557,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order089Repository : Repository<Order089>
     {
-        public Order089Repository(InsulaDatabase database)
-            : base(database)
+        public Order089Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5576,8 +5576,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order090Repository : Repository<Order090>
     {
-        public Order090Repository(InsulaDatabase database)
-            : base(database)
+        public Order090Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5595,8 +5595,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order091Repository : Repository<Order091>
     {
-        public Order091Repository(InsulaDatabase database)
-            : base(database)
+        public Order091Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5614,8 +5614,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order092Repository : Repository<Order092>
     {
-        public Order092Repository(InsulaDatabase database)
-            : base(database)
+        public Order092Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5633,8 +5633,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order093Repository : Repository<Order093>
     {
-        public Order093Repository(InsulaDatabase database)
-            : base(database)
+        public Order093Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5652,8 +5652,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order094Repository : Repository<Order094>
     {
-        public Order094Repository(InsulaDatabase database)
-            : base(database)
+        public Order094Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5671,8 +5671,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order095Repository : Repository<Order095>
     {
-        public Order095Repository(InsulaDatabase database)
-            : base(database)
+        public Order095Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5690,8 +5690,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order096Repository : Repository<Order096>
     {
-        public Order096Repository(InsulaDatabase database)
-            : base(database)
+        public Order096Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5709,8 +5709,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order097Repository : Repository<Order097>
     {
-        public Order097Repository(InsulaDatabase database)
-            : base(database)
+        public Order097Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5728,8 +5728,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order098Repository : Repository<Order098>
     {
-        public Order098Repository(InsulaDatabase database)
-            : base(database)
+        public Order098Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5747,8 +5747,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order099Repository : Repository<Order099>
     {
-        public Order099Repository(InsulaDatabase database)
-            : base(database)
+        public Order099Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5766,8 +5766,8 @@ namespace OrmBenchmark.Insula
 
     public partial class Order100Repository : Repository<Order100>
     {
-        public Order100Repository(InsulaDatabase database)
-            : base(database)
+        public Order100Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5785,8 +5785,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLineRepository : Repository<OrderLine>
     {
-        public OrderLineRepository(InsulaDatabase database)
-            : base(database)
+        public OrderLineRepository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5804,8 +5804,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine001Repository : Repository<OrderLine001>
     {
-        public OrderLine001Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine001Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5823,8 +5823,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine002Repository : Repository<OrderLine002>
     {
-        public OrderLine002Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine002Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5842,8 +5842,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine003Repository : Repository<OrderLine003>
     {
-        public OrderLine003Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine003Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5861,8 +5861,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine004Repository : Repository<OrderLine004>
     {
-        public OrderLine004Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine004Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5880,8 +5880,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine005Repository : Repository<OrderLine005>
     {
-        public OrderLine005Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine005Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5899,8 +5899,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine006Repository : Repository<OrderLine006>
     {
-        public OrderLine006Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine006Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5918,8 +5918,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine007Repository : Repository<OrderLine007>
     {
-        public OrderLine007Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine007Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5937,8 +5937,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine008Repository : Repository<OrderLine008>
     {
-        public OrderLine008Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine008Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5956,8 +5956,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine009Repository : Repository<OrderLine009>
     {
-        public OrderLine009Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine009Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5975,8 +5975,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine010Repository : Repository<OrderLine010>
     {
-        public OrderLine010Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine010Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -5994,8 +5994,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine011Repository : Repository<OrderLine011>
     {
-        public OrderLine011Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine011Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6013,8 +6013,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine012Repository : Repository<OrderLine012>
     {
-        public OrderLine012Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine012Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6032,8 +6032,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine013Repository : Repository<OrderLine013>
     {
-        public OrderLine013Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine013Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6051,8 +6051,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine014Repository : Repository<OrderLine014>
     {
-        public OrderLine014Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine014Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6070,8 +6070,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine015Repository : Repository<OrderLine015>
     {
-        public OrderLine015Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine015Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6089,8 +6089,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine016Repository : Repository<OrderLine016>
     {
-        public OrderLine016Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine016Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6108,8 +6108,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine017Repository : Repository<OrderLine017>
     {
-        public OrderLine017Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine017Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6127,8 +6127,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine018Repository : Repository<OrderLine018>
     {
-        public OrderLine018Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine018Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6146,8 +6146,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine019Repository : Repository<OrderLine019>
     {
-        public OrderLine019Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine019Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6165,8 +6165,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine020Repository : Repository<OrderLine020>
     {
-        public OrderLine020Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine020Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6184,8 +6184,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine021Repository : Repository<OrderLine021>
     {
-        public OrderLine021Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine021Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6203,8 +6203,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine022Repository : Repository<OrderLine022>
     {
-        public OrderLine022Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine022Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6222,8 +6222,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine023Repository : Repository<OrderLine023>
     {
-        public OrderLine023Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine023Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6241,8 +6241,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine024Repository : Repository<OrderLine024>
     {
-        public OrderLine024Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine024Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6260,8 +6260,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine025Repository : Repository<OrderLine025>
     {
-        public OrderLine025Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine025Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6279,8 +6279,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine026Repository : Repository<OrderLine026>
     {
-        public OrderLine026Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine026Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6298,8 +6298,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine027Repository : Repository<OrderLine027>
     {
-        public OrderLine027Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine027Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6317,8 +6317,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine028Repository : Repository<OrderLine028>
     {
-        public OrderLine028Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine028Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6336,8 +6336,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine029Repository : Repository<OrderLine029>
     {
-        public OrderLine029Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine029Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6355,8 +6355,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine030Repository : Repository<OrderLine030>
     {
-        public OrderLine030Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine030Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6374,8 +6374,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine031Repository : Repository<OrderLine031>
     {
-        public OrderLine031Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine031Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6393,8 +6393,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine032Repository : Repository<OrderLine032>
     {
-        public OrderLine032Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine032Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6412,8 +6412,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine033Repository : Repository<OrderLine033>
     {
-        public OrderLine033Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine033Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6431,8 +6431,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine034Repository : Repository<OrderLine034>
     {
-        public OrderLine034Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine034Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6450,8 +6450,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine035Repository : Repository<OrderLine035>
     {
-        public OrderLine035Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine035Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6469,8 +6469,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine036Repository : Repository<OrderLine036>
     {
-        public OrderLine036Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine036Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6488,8 +6488,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine037Repository : Repository<OrderLine037>
     {
-        public OrderLine037Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine037Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6507,8 +6507,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine038Repository : Repository<OrderLine038>
     {
-        public OrderLine038Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine038Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6526,8 +6526,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine039Repository : Repository<OrderLine039>
     {
-        public OrderLine039Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine039Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6545,8 +6545,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine040Repository : Repository<OrderLine040>
     {
-        public OrderLine040Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine040Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6564,8 +6564,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine041Repository : Repository<OrderLine041>
     {
-        public OrderLine041Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine041Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6583,8 +6583,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine042Repository : Repository<OrderLine042>
     {
-        public OrderLine042Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine042Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6602,8 +6602,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine043Repository : Repository<OrderLine043>
     {
-        public OrderLine043Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine043Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6621,8 +6621,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine044Repository : Repository<OrderLine044>
     {
-        public OrderLine044Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine044Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6640,8 +6640,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine045Repository : Repository<OrderLine045>
     {
-        public OrderLine045Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine045Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6659,8 +6659,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine046Repository : Repository<OrderLine046>
     {
-        public OrderLine046Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine046Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6678,8 +6678,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine047Repository : Repository<OrderLine047>
     {
-        public OrderLine047Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine047Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6697,8 +6697,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine048Repository : Repository<OrderLine048>
     {
-        public OrderLine048Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine048Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6716,8 +6716,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine049Repository : Repository<OrderLine049>
     {
-        public OrderLine049Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine049Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6735,8 +6735,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine050Repository : Repository<OrderLine050>
     {
-        public OrderLine050Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine050Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6754,8 +6754,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine051Repository : Repository<OrderLine051>
     {
-        public OrderLine051Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine051Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6773,8 +6773,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine052Repository : Repository<OrderLine052>
     {
-        public OrderLine052Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine052Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6792,8 +6792,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine053Repository : Repository<OrderLine053>
     {
-        public OrderLine053Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine053Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6811,8 +6811,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine054Repository : Repository<OrderLine054>
     {
-        public OrderLine054Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine054Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6830,8 +6830,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine055Repository : Repository<OrderLine055>
     {
-        public OrderLine055Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine055Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6849,8 +6849,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine056Repository : Repository<OrderLine056>
     {
-        public OrderLine056Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine056Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6868,8 +6868,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine057Repository : Repository<OrderLine057>
     {
-        public OrderLine057Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine057Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6887,8 +6887,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine058Repository : Repository<OrderLine058>
     {
-        public OrderLine058Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine058Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6906,8 +6906,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine059Repository : Repository<OrderLine059>
     {
-        public OrderLine059Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine059Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6925,8 +6925,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine060Repository : Repository<OrderLine060>
     {
-        public OrderLine060Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine060Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6944,8 +6944,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine061Repository : Repository<OrderLine061>
     {
-        public OrderLine061Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine061Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6963,8 +6963,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine062Repository : Repository<OrderLine062>
     {
-        public OrderLine062Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine062Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -6982,8 +6982,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine063Repository : Repository<OrderLine063>
     {
-        public OrderLine063Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine063Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7001,8 +7001,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine064Repository : Repository<OrderLine064>
     {
-        public OrderLine064Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine064Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7020,8 +7020,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine065Repository : Repository<OrderLine065>
     {
-        public OrderLine065Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine065Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7039,8 +7039,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine066Repository : Repository<OrderLine066>
     {
-        public OrderLine066Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine066Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7058,8 +7058,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine067Repository : Repository<OrderLine067>
     {
-        public OrderLine067Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine067Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7077,8 +7077,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine068Repository : Repository<OrderLine068>
     {
-        public OrderLine068Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine068Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7096,8 +7096,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine069Repository : Repository<OrderLine069>
     {
-        public OrderLine069Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine069Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7115,8 +7115,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine070Repository : Repository<OrderLine070>
     {
-        public OrderLine070Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine070Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7134,8 +7134,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine071Repository : Repository<OrderLine071>
     {
-        public OrderLine071Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine071Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7153,8 +7153,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine072Repository : Repository<OrderLine072>
     {
-        public OrderLine072Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine072Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7172,8 +7172,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine073Repository : Repository<OrderLine073>
     {
-        public OrderLine073Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine073Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7191,8 +7191,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine074Repository : Repository<OrderLine074>
     {
-        public OrderLine074Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine074Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7210,8 +7210,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine075Repository : Repository<OrderLine075>
     {
-        public OrderLine075Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine075Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7229,8 +7229,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine076Repository : Repository<OrderLine076>
     {
-        public OrderLine076Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine076Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7248,8 +7248,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine077Repository : Repository<OrderLine077>
     {
-        public OrderLine077Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine077Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7267,8 +7267,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine078Repository : Repository<OrderLine078>
     {
-        public OrderLine078Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine078Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7286,8 +7286,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine079Repository : Repository<OrderLine079>
     {
-        public OrderLine079Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine079Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7305,8 +7305,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine080Repository : Repository<OrderLine080>
     {
-        public OrderLine080Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine080Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7324,8 +7324,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine081Repository : Repository<OrderLine081>
     {
-        public OrderLine081Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine081Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7343,8 +7343,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine082Repository : Repository<OrderLine082>
     {
-        public OrderLine082Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine082Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7362,8 +7362,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine083Repository : Repository<OrderLine083>
     {
-        public OrderLine083Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine083Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7381,8 +7381,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine084Repository : Repository<OrderLine084>
     {
-        public OrderLine084Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine084Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7400,8 +7400,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine085Repository : Repository<OrderLine085>
     {
-        public OrderLine085Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine085Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7419,8 +7419,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine086Repository : Repository<OrderLine086>
     {
-        public OrderLine086Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine086Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7438,8 +7438,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine087Repository : Repository<OrderLine087>
     {
-        public OrderLine087Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine087Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7457,8 +7457,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine088Repository : Repository<OrderLine088>
     {
-        public OrderLine088Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine088Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7476,8 +7476,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine089Repository : Repository<OrderLine089>
     {
-        public OrderLine089Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine089Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7495,8 +7495,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine090Repository : Repository<OrderLine090>
     {
-        public OrderLine090Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine090Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7514,8 +7514,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine091Repository : Repository<OrderLine091>
     {
-        public OrderLine091Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine091Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7533,8 +7533,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine092Repository : Repository<OrderLine092>
     {
-        public OrderLine092Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine092Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7552,8 +7552,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine093Repository : Repository<OrderLine093>
     {
-        public OrderLine093Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine093Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7571,8 +7571,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine094Repository : Repository<OrderLine094>
     {
-        public OrderLine094Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine094Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7590,8 +7590,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine095Repository : Repository<OrderLine095>
     {
-        public OrderLine095Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine095Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7609,8 +7609,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine096Repository : Repository<OrderLine096>
     {
-        public OrderLine096Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine096Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7628,8 +7628,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine097Repository : Repository<OrderLine097>
     {
-        public OrderLine097Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine097Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7647,8 +7647,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine098Repository : Repository<OrderLine098>
     {
-        public OrderLine098Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine098Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7666,8 +7666,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine099Repository : Repository<OrderLine099>
     {
-        public OrderLine099Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine099Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         
@@ -7685,8 +7685,8 @@ namespace OrmBenchmark.Insula
 
     public partial class OrderLine100Repository : Repository<OrderLine100>
     {
-        public OrderLine100Repository(InsulaDatabase database)
-            : base(database)
+        public OrderLine100Repository(InsulaDatabaseContext databaseContext)
+            : base(databaseContext)
         {
         }
         

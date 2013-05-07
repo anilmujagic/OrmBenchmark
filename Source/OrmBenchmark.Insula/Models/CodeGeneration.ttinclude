@@ -1,5 +1,6 @@
 ﻿<#@ assembly name="System.Core" #>
-<#@ assembly name="$(SolutionDir)Libraries\Insula.Common.dll" #>
+<#@ assembly name="$(SolutionDir)packages\Insula.Common.1.0.3\lib\portable-win+net40+sl40+wp\Insula.Common.dll" #>
+<#@ assembly name="$(SolutionDir)packages\Insula.Data.0.2.0\lib\net40\Insula.Data.dll" #>
 <#@ assembly name="$(SolutionDir)Libraries\Insula.CodeGeneration.dll" #>
 <#@ import namespace="System" #>
 <#@ import namespace="System.Collections.Generic" #>
@@ -11,7 +12,7 @@
     //  Variables used in code templates  //
     ////////////////////////////////////////
     var codeNamespace = "OrmBenchmark.Insula";
-    var databaseClassName = "InsulaDatabase";
+    var databaseContextName = "InsulaDatabaseContext";
     var connectionStringName = "OrmBenchmark";
     var generateStronglyTyped_GetByKey_And_DeleteByKey_RepositoryMethods = true;
     

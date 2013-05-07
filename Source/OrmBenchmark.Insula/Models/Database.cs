@@ -7,9 +7,9 @@ using Insula.Data.Orm;
 
 namespace OrmBenchmark.Insula
 {
-    public partial class InsulaDatabase : Database
+    public partial class InsulaDatabaseContext : DatabaseContext
     {
-        public InsulaDatabase()
+        public InsulaDatabaseContext()
             : base(DatabaseEngine.SqlServer, System.Configuration.ConfigurationManager.ConnectionStrings["OrmBenchmark"].ConnectionString)
         {
         }

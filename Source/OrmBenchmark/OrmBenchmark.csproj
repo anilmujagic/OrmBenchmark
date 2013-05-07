@@ -40,8 +40,9 @@
     <Reference Include="Insula.Common">
       <HintPath>..\packages\Insula.Common.1.0.3\lib\portable-win+net40+sl40+wp\Insula.Common.dll</HintPath>
     </Reference>
-    <Reference Include="Insula.Data">
-      <HintPath>..\packages\Insula.Data.0.1.1\lib\net40\Insula.Data.dll</HintPath>
+    <Reference Include="Insula.Data, Version=0.2.0.0, Culture=neutral, PublicKeyToken=3b2f5f3fcd8a5b1e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Insula.Data.0.2.0\lib\net40\Insula.Data.dll</HintPath>
     </Reference>
     <Reference Include="Insula.DataAnnotations">
       <HintPath>..\packages\Insula.DataAnnotations.1.0.0\lib\portable-win+net40+sl40+wp\Insula.DataAnnotations.dll</HintPath>
