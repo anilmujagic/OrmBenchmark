@@ -184,7 +184,7 @@ namespace OrmBenchmark
         {
             Console.WriteLine();
             Console.WriteLine("------------------------------------------------------------");
-            Console.WriteLine("Entity Framework 5.0 - DB first, with EdmGen2");
+            Console.WriteLine("Entity Framework 5.0 : DB first + EdmGen2 - Change Tracking");
             Console.WriteLine("------------------------------------------------------------");
 
             EntityFramework.Models.OrmBenchmarkContext db = null;
@@ -212,13 +212,17 @@ namespace OrmBenchmark
             db = new EntityFramework.Models.OrmBenchmarkContext();
             ExecuteAction("Loading 10000 customers at once", () =>
             {
-                var cust = db.Customers.ToList();
+                var cust = db.Customers
+                    .AsNoTracking()
+                    .ToList();
             });
 
             db = new EntityFramework.Models.OrmBenchmarkContext();
             ExecuteAction("Loading 200000 order lines at once", () =>
             {
-                var cust = db.OrderLines.ToList();
+                var cust = db.OrderLines
+                    .AsNoTracking()
+                    .ToList();
             });
 
             db = new EntityFramework.Models.OrmBenchmarkContext();
