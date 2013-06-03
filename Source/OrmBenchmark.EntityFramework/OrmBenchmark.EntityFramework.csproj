@@ -1278,6 +1278,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>OrmBenchmarkModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\OrmBenchmarkModel.GeneratedViews.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
