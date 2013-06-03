@@ -184,7 +184,7 @@ namespace OrmBenchmark
         {
             Console.WriteLine();
             Console.WriteLine("------------------------------------------------------------");
-            Console.WriteLine("Entity Framework 5.0 - Code First");
+            Console.WriteLine("Entity Framework 5.0");
             Console.WriteLine("------------------------------------------------------------");
 
             EntityFramework.Models.OrmBenchmarkContext db = null;
