@@ -187,11 +187,11 @@ namespace OrmBenchmark
             Console.WriteLine("Entity Framework 5.0 - Code First");
             Console.WriteLine("------------------------------------------------------------");
 
-            OrmBenchmark.EntityFramework.Models.OrmBenchmarkContext db = null;
+            EntityFramework.Models.OrmBenchmarkContext db = null;
 
             ExecuteAction("Instantiating context", () =>
             {
-                db = new OrmBenchmark.EntityFramework.Models.OrmBenchmarkContext();
+                db = new EntityFramework.Models.OrmBenchmarkContext();
             });
 
             ExecuteAction("First query", () =>
@@ -199,6 +199,7 @@ namespace OrmBenchmark
                 var cust = db.Customers.Single(c => c.CustomerID == "CUST-00001");
             });
 
+            db = new EntityFramework.Models.OrmBenchmarkContext();
             ExecuteAction("Loading 100 customers one by one", () =>
             {
                 for (int i = 1; i <= 100; i++)
@@ -208,21 +209,25 @@ namespace OrmBenchmark
                 }
             });
 
+            db = new EntityFramework.Models.OrmBenchmarkContext();
             ExecuteAction("Loading 10000 customers at once", () =>
             {
                 var cust = db.Customers.ToList();
             });
 
+            db = new EntityFramework.Models.OrmBenchmarkContext();
             ExecuteAction("Loading 200000 order lines at once", () =>
             {
                 var cust = db.OrderLines.ToList();
             });
 
+            db = new EntityFramework.Models.OrmBenchmarkContext();
             ExecuteAction("Loading 10000 orders with related customers", () =>
             {
                 var orders = db.Orders.Include("Customer").ToList();
             });
 
+            db = new EntityFramework.Models.OrmBenchmarkContext();
             ExecuteAction("Loading and updating 1000 customers", () =>
             {
                 var custs = db.Customers.Take(1000).ToList();
